@@ -51,7 +51,7 @@
         <main class="detail-main" ref="detailMain">
           <!-- Category + Meta -->
           <div class="post-meta">
-            <span class="chip">{{ activePost.category }}</span>
+            <span class="chip"> <i class="fa-solid fa-tags"></i>{{ activePost.category }}</span>
             <span class="meta-text">
               {{ activePost.date }} · {{ activePost.readTime }}
             </span>
@@ -706,20 +706,25 @@ export default {
   margin-bottom: 10px;
 }
 
+.chip i {
+  margin-right: 3px;
+  font-size: 19px;
+  color: #0e00aa;
+}
 .chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 4px 10px;
-  border-radius: 999px;
+  border-radius: 10px;
   font-size: 0.75rem;
   letter-spacing: 0.08em;
+  border: 1px solid rgba(0, 0, 0, 0.239);
   text-transform: uppercase;
-  background: linear-gradient(
-    95deg,
-    rgba(0, 3, 41, 1) 0%,
-    rgba(0, 51, 171, 1) 46%
-  );
-  color: #e5ecff;
+
+  color: #000;
   font-weight: 600;
-  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.25);
+  
 }
 
 .meta-text {
@@ -1103,35 +1108,32 @@ export default {
   }
 }
 
-@media (max-width: 768px) {
-  .detail-page {
-    padding: 32px 20px 28px;
-  }
 
+@media (max-width: 900px) {
   .detail-layout {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 
+ 
   .detail-sidebar {
-    order: -1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 
-  .headline h1 {
-    font-size: 1.6rem;
+
+
+
+  .filters-card {
+    order: 1;
   }
 
-  .lightbox-overlay {
-    padding: 12px;
-  }
 
-  .lightbox-inner {
-    border-radius: 18px;
-  }
-
-  .lightbox-close {
-    top: 16px;
-    right: 16px;
-    padding: 6px 12px;
+  .latest-card {
+    order: 2;
   }
 }
+
 </style>

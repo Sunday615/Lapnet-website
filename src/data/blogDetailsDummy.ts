@@ -23,12 +23,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 1,
     title: " ພິທີລົງນາມເຊັນສັນຍາໂຄງການຊຳລະຂ້າມແດນລາວ-ຈີນ ຜ່ານ QR CODE ລະຫວ່າງບໍລິສັດ ລາວເນເຊີນນໍເພເມັ້ນເນັດເວີກ ຈຳກັດ (LAPNET) ແລະ ບໍລິສັດ ຢູນຽນເພ ສາກົນ (UPI) ທີ່ນະຄອນຊຽງໄຮ້, ສປ ຈີນ.",
-    category: "Contract",
+    category: "Contract Signing",
     date: "25 December 2024",
     readTime: "ໂພສເມື່ອ 8 month ago",
     image: "/blog/1.jpg",
     heroImage: "/blog/1.jpg",
-    tags: ["Contract", "Meetings",],
+    tags: ["Contract Signing", "Meeting",],
     gallery: [
       {
         src: "/blog/1.jpg",
@@ -50,12 +50,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 2,
     title: "ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.",
-    category: "Notification",
+    category: "Announcement",
     date: " 12 August 2024",
     readTime: 'ໂພສເມື່ອ 1 Year ago',
     image: "/blog/2/2.png",
     heroImage: "/blog/2/2.png",
-    tags: ["Notification",],
+    tags: ["Announcement",],
     gallery: [
       {
         src: "/blog/2/2.1.png",
@@ -77,12 +77,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 3,
     title: "ແຈ້ງເຊີນປະມູນ ອຸປະກອນ HARDWARE ເພື່ອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNET.",
-    category: "Notification",
+    category: "Announcement",
     date: "16 May 2024",
     readTime: 'ໂພສເມື່ອ 1 Year ago',
     image: "/blog/3/3.jpg",
     heroImage: "/blog/3/3.jpg",
-    tags: ["Notification"],
+    tags: ["Announcement"],
     gallery: [
       {src: "/blog/3/3.1.jpeg"},
       {src: "/blog/3/3.2.jpeg"},
@@ -99,12 +99,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 4,
     title: "ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ.",
-    category: "Grand Openning",
+    category: "Launch Event",
     date: "03 April 2024",
     readTime: 'ໂພສເມື່ອ 1 Year ago',
     image: "/blog/4.png",
     heroImage: "/blog/4.png",
-    tags: ["Grand Opening", "Meetings"],
+    tags: ["Grand Opening", "Meeting"],
     gallery: [
 
 
@@ -119,12 +119,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 5,
     title: "ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປລາວ ແລະ ປະເທດໄທ ໂດຍການຮ່ວມມືກັນລະຫວ່າງ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ(LAPNET) ແລະ ບໍລິສັດ NATIONAL ITMX (ITMX).",
-    category: "Contract",
+    category: "Contract Signing",
     date: "03 April 2024",
     readTime: 'ໂພສເມື່ອ 1 Year ago',
     image: "/blog/5.jpg",
     heroImage: "/blog/5.jpg",
-    tags: ["Contract", "Meetings"],
+    tags: ["Contract Signing", "Meeting"],
     gallery: [],
     content: [
       "ໃນຕອນເຊົ້າຂອງວັນທີ 14 ມີນາ 2024 ຜ່ານມາ ທີ່ສຳນັກງານ ຂອງບໍລິສັດ National ITMX ແຂວງ ນົນທະບູລີປະເທດໄທ ໄດ້ມີການຈັດພິທີລົງນາມ ເຊັນສັນຍາ ວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR Codeລະຫວ່າງ ສປປ ລາວ ແລະ ປະເທດໄທ ລົງນາມໂດຍ ທ່ານ ສີສະໝອນ ສຣິດທິຣາດ ຜູ້ອຳນວຍການ ບໍລິສັດ LAPNet ແລະ ທ່ານ ນາງ ວັນນາ ນົບອາພອນ ຜູ້ອຳນວຍການ ບໍລິສັດ National ITMX ແລະ ໃຫ້ກຽດເປັນສັກຂີພະຍານໃນພິທີເຊັນສັນຍາດັ່ງກ່າວໂດຍ     ທ່ານ ສີສະອາດ ນຶມອາສາ ໃນນາມສະມາຊິກ ສະພາບໍລິຫານ ແລັບເນັດ, ທ່ານ ກົງສັກ ສຸພອນສີ ໃນນາມຕາງໜ້າສະພາບໍລິຫານ    ທັງເປັນຕາງໜ້າຜູ້ຖືຮຸ້ນ ຂອງບໍລິສັດ LAPNet; ທ່ານ ກອບສັກ ດວງດີ ປະທານສະພາບໍລິຫານບໍລິສັດ National ITMX,    ຕາງຫນ້າທະນາຄານຜູ້ໃຫ້ບໍລິການ (Service Bank) ພ້ອມດ້ວຍຄະນະເຂົ້າຮ່ວມໃນພິທີ.",
@@ -136,12 +136,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 6,
     title: "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ.",
-    category: "Meetings ",
+    category: "Meeting ",
     date: "26 September 2024",
     readTime: ' ໂພສເມື່ອ 1 Year ago',
     image: "/blog/6.jpg",
     heroImage: "/blog/6.jpg",
-    tags: ["Meetings", "Events"],
+    tags: ["Meeting", "Event"],
     gallery: [],
     content: [
       "ໃນລະຫວ່າງວັນທີ 26-29 ກັນຍາ 2023 ທີ່ຜ່ານມາ, ທ່ານ ນາງ ນີວະສອນ ຮອງຜູ້ອຳນວຍການ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet) ພ້ອມດ້ວຍຄະນະຈາກບໍລິສັດ ໄດ້ເດີນທາງໄປແລກປ່ຽນບົດຮຽນຮ່ວມກັບບໍລິສັດ Network for Electronic Transfers Singapore PTE Ltd (NETS) ທີ່ປະເທດສິງກະໂປ.",
@@ -153,12 +153,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 7,
     title: "ກອງປະຊຸມ ປຶກສາຫາລືຄວາມເປັນໄປໄດ້ ໃນການເກັບລາຍຮັບຈາກການຊໍາລະຄ່າໄຟຟ້າ ຜ່ານລະບົບສູນກາງ ການຊຳລະທຸລະກຳຍ່ອຍ (RETAILS PAYMENT OPERATOR) ຂອງ ບໍລິສັດ LAPNET.",
-    category: "Meetings",
+    category: "Meeting",
     date: "15 September 2023",
     readTime: 'ໂພສເມື່ອ 2 Year ago',
     image: "/blog/7/F 1 -01.jpg",
     heroImage: "/blog/7/F 1 -01.jpg",
-    tags: ["Meetings", "Contract"],
+    tags: ["Meeting", "Contract Signing"],
     gallery: [
       {src: "/blog/7/F 1 -02.jpg"},
       {src: "/blog/7/F 1 -03.jpg"},
@@ -174,12 +174,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 8,
     title: "ກອງປະຊຸມ ທາບທາມການນຳສະເຫນີ ຂອງທະນາຄານທີ່ມີຄວາມພ້ອມ ແລະ ສະເໜີເປັນທະນາຄານຮັບຊຳລະໃນການ ເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນລະຫວ່າງ ສປປ ລາວ ແລະ ສສ.ຫວຽດນາມ.",
-    category: "Meetings",
+    category: "Meeting",
     date: " 30 August 2023",
     readTime: 'ໂພສເມື່ອ 2 Year ago',
     image: "/blog/8/1.jpg",
     heroImage: "/blog/8/1.jpg",
-    tags: ["Meetings", "Contract"],
+    tags: ["Meeting", "Contract Signing"],
     gallery: [
       {src:'/blog/8/2.jpg'},
       {src:'/blog/8/5.jpg'},
@@ -200,12 +200,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 9,
     title: "ເດີນທາງໄປແລກປ່ຽນບົດຮຽນຮ່ວມກັບ ທະນາຄານແຫ່ງລັດຫວຽດນາມ, ບໍລິສັດ ຫຸ້ນສ່ວນຊໍາລະແຫ່ງຊາດຫວຽດນາມ (NATIONAL PAYMENT CORPORATION OF VIETNAM ຫຼື NAPAS).",
-    category: "Meetings",
+    category: "Meeting",
     date: "22 August 2023",
     readTime: 'ໂພສເມື່ອ 2 Year ago',
     image: "/blog/9/1.jpg",
     heroImage: "/blog/9/1.jpg",
-    tags: ["Meetings", "Contract"],
+    tags: ["Meeting", "Contract Signing"],
     gallery: [
        {src:'/blog/9/2.jpg'},
       {src:'/blog/9/3.jpg'},
@@ -221,12 +221,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 10,
     title: "ພິທີມອບ-ຮັບ ຕຳແໜ່ງ ປະທານສະພາບໍລິຫານ ແລະ ຜູ້ອຳນວຍການ ບໍລິສັດ ລາວເນເຊີນນໍ ເມັ້ນ ເນັດເວີກ ຈຳກັດ ລະຫວ່າງ ຜູ້ເກົ່າ ແລະ ຜູ້ໃໝ່.",
-    category: "Meetings",
+    category: "Meeting",
     date: "21 August 2023",
     readTime: 'ໂພສເມື່ອ 2 Year ago',
     image: "/blog/10/1.jpg",
     heroImage: "/blog/10/1.jpg",
-    tags: ["Contract", "Meetings"],
+    tags: ["Contract Signing", "Meeting"],
     gallery: [
       {src:'/blog/10/2.jpg'},
       {src:'/blog/10/3.jpg'},
@@ -245,12 +245,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 11,
     title: "LAPNET ໄດ້ສຳເລັດການຈັດກອງປະຊຸມສະພາບໍລິຫານສະໄໝສາມັນ ປະຈຳໄຕມາດ I ປະຈຳປີ 2023.",
-    category: "Meetings",
+    category: "Meeting",
     date: "28 April 2023",
     readTime: ' ໂພສເມື່ອ 2 Year ago',
     image: "/blog/11/1.jpg",
     heroImage: "/blog/11/1.jpg",
-    tags: ["Meetings" ],
+    tags: ["Meeting" ],
     gallery: [
       {src: "/blog/11/2.jpg"},
       {src: "/blog/11/3.jpg"},
@@ -266,12 +266,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 12,
     title: "ພິທີມອບຮັບໃບຍ້ອງຍໍ ຈາກລັດຖະມົນຕີກະຊວງການເງິນ.",
-    category: "Meetings",
+    category: "Meeting",
     date: "05 April 2023",
     readTime: 'ໂພສເມື່ອ 2 Year ago',
     image: "/blog/12/2.jpeg",
     heroImage: "/blog/12/1.jpeg",
-    tags: ["Meetings", "Events"],
+    tags: ["Meeting", "Event"],
     gallery: [
 
       {src : '/blog/12/2.jpeg'}
@@ -307,12 +307,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 14,
     title: "ບໍລິສັດ LAPNET ໄດ້ເຂົ້າຮ່ວມງານ ສັບປະດາດິຈິຕ໋ອນລາວ ປະຈຳປີ 2022.",
-    category: "Events",
+    category: "Event",
     date: "21 December 2022",
     readTime: 'ໂພສເມື່ອ 3 Year ago',
     image: "/blog/14/1.jpg",
     heroImage: "/blog/14/1.jpg",
-    tags: ["Meetings", "Events"],
+    tags: ["Meeting", "Event"],
     gallery: [
       {src : '/blog/14/1.jpg'},
       {src : '/blog/14/2.jpg'},
@@ -328,12 +328,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 15,
     title: "ພິທີລົງນາມສັນຍາວ່າດ້ວຍການເປັນຄູ່ຮ່ວມມື ແລະ ພິທີເປີດໂຕການຊຳລະຂ້າມທະນາຄານຜ່ານ LAPNET QR PAY ໃນວັນທີ 06 ຕຸລາ 2022 ທີ່ຜ່ານມາ.",
-    category: "Contract",
+    category: "Contract Signing",
     date: "21 December 2022",
     readTime: 'ໂພສເມື່ອ 3 Year ago',
     image: "/blog/15/1.jpg",
     heroImage: "/blog/15/1.jpg",
-    tags: ["Contract", ],
+    tags: ["Contract Signing", ],
     gallery: [
       {src : '/blog/15/2.jpeg'},
       {src : '/blog/15/3.jpeg'},
@@ -350,12 +350,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 16,
     title: "ເທດສະການສະຕາດອັບລາວ ບໍລິສັດ LAPNET ກໍໄດ້ຮັບກຽດໃຫ້ເຂົ້າຮ່ວມບັນຍາຍເພື່ອນຳສະເໜີກ່ຽວກັບ ບໍລິສັດ LAPNET.",
-    category: "Meetings",
+    category: "Meeting",
     date: "18 December 2021",
     readTime: ' ໂພສເມື່ອ 4 Year ago',
     image: "/blog/16/2.jpg",
     heroImage: "/blog/16/2.jpg",
-    tags: ["Events", "Meetings"],
+    tags: ["Event", "Meeting"],
     gallery: [
         {src : '/blog/16/1.jpg'},
         {src : '/blog/16/2.jpg'},
@@ -371,12 +371,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 17,
     title: "ພິທີເຊັນສັນຍາແຕ່ງຕັ້ງທີ່ປຶກສາດ້ານການເງິນ ລະຫວ່າງ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ແລະ ບໍລິສັດ ຫຼັກຊັບ ລ້ານຊ້າງ ມະຫາຊົນ.",
-    category: "Contract",
+    category: "Contract Signing",
     date: "14 July 2021",
     readTime: 'ໂພສເມື່ອ 4 Year ago',
     image: "/blog/17/1.jpeg",
     heroImage: "/blog/17/1.jpeg",
-    tags: ["Contract", "Meetings"],
+    tags: ["Contract Signing", "Meeting"],
     gallery: [
       {src : '/blog/17/2.jpeg'},
       {src : '/blog/17/3.jpeg'},
@@ -394,12 +394,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 18,
     title: "ບໍລິສັດ LAPNET ໄດ້ຈັດພິທີມອບ-ຮັບໜ້າທີ່ປະທານສະພາບໍລິຫານຄົນໃຫມ່.",
-    category: "Contract",
+    category: "Contract Signing",
     date: " 30 June 2021",
     readTime: 'ໂພສເມື່ອ 4 Year ago',
     image: "/blog/18/1.jpg",
     heroImage: "/blog/18/1.jpg",
-    tags: ["Contract", "Meetings"],
+    tags: ["Contract Signing", "Meeting"],
     gallery: [
       {src: "/blog/18/2.jpg"},
       {src: "/blog/18/4.jpg"},
@@ -416,12 +416,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 19,
     title: "ລາຍຊື່ ຜູ້ຄວບຄຸມລະບົບການຊໍາລະທຸລະກຳຍ່ອຍ ຜູ້ໃຫ້ບໍລິການຊໍາລະ ທີ່ໄດ້ຮັບອະນຸຍາດ ຈາກ ທະນາຄານແຫ່ງ ສປປ ລາວ.",
-    category: "Notification",
+    category: "Announcement",
     date: "17 June 2021",
     readTime: 'ໂພສເມື່ອ 4 Year ago',
     image: "/blog/19/1.png",
     heroImage: "/blog/19/1.png",
-    tags: ["Notification", ],
+    tags: ["Announcement", ],
     gallery: [],
     content: [
       "ທະນາຄານແຫ່ງ ສປປ ລາວ ໄດ້ອອກແຈ້ງການ ກ່ຽວກັບ ລາຍຊື່ ຜູ້ຄວບຄຸມລະບົບການຊໍາລະທຸລະກຳຍ່ອຍ ຜູ້ໃຫ້ບໍລິການຊໍາລະ ທີ່ໄດ້ຮັບອະນຸຍາດ ຈາກ ທະນາຄານແຫ່ງ ສປປ ລາວ.",
@@ -433,12 +433,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 20,
     title: "ບໍລິສັດ LAPNET ໄດ້ຮັບມອບຜ້າປິດປາກ ຈາກບໍລິສັດ VIET CARD INTERNATIONAL TECHNOLOGYCORPORATION.",
-    category: "Meetings",
+    category: "Meeting",
     date: "30 April 2021",
     readTime: 'ໂພສເມື່ອ 4 Year ago',
     image: "/blog/20/1.jpeg",
     heroImage: "/blog/20/1.jpeg",
-    tags: ["Meetings", ],
+    tags: ["Meeting", ],
     gallery: [],
     content: [
       "ໃນຕອນເຊົ້າ ຂອງວັນທີ 30 ເມສາ 2021 ບໍລິສັດ Viet Card International Technology Corporationໄດ້ມອບຜ້າປິດປາກ ຈຳນວນ 100 ກັບໃຫ້ແກ່ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet)ເພື່ອຮັບໃຊ້ເຂົ້າໃນການປ້ອງກັນພະຍາດ ໂຄວິດ-19. ການມອບຮັບໃນຄັ້ງນີ້ ແມ່ນໃຫ້ກຽດກ່າວຮັບໂດຍ ທ່ານ ຫົງຄຳເພັດດາວົງ ຜູ້ອຳນວຍການ ບໍລິສັດ LAPNet ແລະ ກ່າວມອບໂດຍທ່ານ ນາງ ສຸພາພອນ ແສງມະນີ ຕ່າງໜ້າ ຂອງບໍລິສັດ VietCard. ດັ່ງນັ້ນ ທາງບໍລິສັດ ຈຶ່ງໄດ້ມອບໃບຍ້ອງຍໍໃຫ້ແກ່ບໍລິສັດດັ່ງກ່າວ ເພື່ອເປັນການຢັ້ງຢຶນແທນຄຳຂອບໃຈຕໍ່ບໍລິສັດ ທີ່ມີນໍ້າໃຈໃນການປະກອບສ່ວນ ຊຸກຍູ້ ຊ່ວຍເຫຼືອໃນຄັ້ງນີ້.",
@@ -450,12 +450,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 21,
     title: "LAPNET ຈັດກອງປະຊຸມສະພາບໍລິຫານ ສະໄໝສາມັນ ແລະ ກອງປະຊຸມຜູ້ຖືຮຸ້ນ ສະໄໝສາມັນ ຄັ້ງທີ I ປະຈໍາປີ 2021.",
-    category: "Meetings",
+    category: "Meeting",
     date: "12 March 2021",
     readTime: 'ໂພສເມື່ອ 4 Year ago',
     image: "/blog/21/1.jpg",
     heroImage: "/blog/21/1.jpg",
-    tags: ["Meetings", ],
+    tags: ["Meeting", ],
     gallery: [
       {src : "/blog/21/2.jpg"},
       {src : "/blog/21/3.jpg"}
@@ -471,12 +471,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 22,
     title: "ພິທີເປີດໂຕຜະລິດຕະພັນ ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື.",
-    category: "Grand Openning",
+    category: "Launch Event",
     date: "08 December 2020",
     readTime: 'ໂພສເມື່ອ 5 Year ago',
     image: "/blog/22/22main.jpeg",
     heroImage: "/blog/22/22main.jpeg",
-    tags: ["Grand Openning", "Events"],
+    tags: ["Launch Event", "Event"],
     gallery: [
       {src :  "/blog/22/22.jpg"},
       {src : "/blog/22/22.2.jpeg"},
@@ -537,12 +537,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 25,
     title: "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ຕ້ອນຮັບຄະນະນັກສຶກສາ ຈາກວິທະຍາໄລສຸດສະກະ.",
-    category: "Meetings",
+    category: "Meeting",
     date: "11 June 2020",
     readTime: 'ໂພສເມື່ອ 5 Year ago',
     image: "/blog/25/25.jpg",
     heroImage: "/blog/25/25.jpg",
-    tags: ["Meetings"],
+    tags: ["Meeting"],
     gallery: [
       {src: "/blog/25/25.1.jpeg"},
       {src: "/blog/25/25.2.jpeg"},
@@ -563,12 +563,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 26,
     title: "ແຈ້ງການປະມູນ.",
-    category: "Notification",
+    category: "Announcement",
     date: "11 June 2020",
     readTime: 'ໂພສເມື່ອ 5 Year ago',
     image: "/blog/26/26.jpg",
     heroImage: "/blog/26/26.jpg",
-    tags: ["Notification", ],
+    tags: ["Announcement", ],
     gallery: [
       {src : "/blog/26/26.jpg"},
       {src : "/blog/26/26.1.png"},
@@ -583,12 +583,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 27,
     title: "ພິທີເປີດບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ.",
-    category: "Grand Openning",
+    category: "Launch Event",
     date: "25 November 2019",
     readTime: 'ໂພສເມື່ອ 6 Year ago',
     image: "/blog/27/27.1.jpg",
     heroImage: "/blog/27/27.1.jpg",
-    tags: ["Grand Openning", "Meetings"],
+    tags: ["Launch Event", "Meeting"],
     gallery: [
       {src : "/blog/27/27.2.jpeg"},
       {src : "/blog/27/27.3.jpeg"},
@@ -615,12 +615,12 @@ export const blogDetails: BlogDetail[] = [
   {
     id: 28,
     title: "ພິທີລົງນາມໃນສັນຍາການຮ່ວມທຶນຂອງ ບໍລິສັດ ລາວ ເນເຊິນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ.",
-    category: "Contract",
+    category: "Contract Signing",
     date: "22 November 2019",
     readTime: 'ໂພສເມື່ອ 6 Year ago',
     image: "/blog/28/28.1.jpeg",
     heroImage: "/blog/28/28.1.jpeg",
-    tags: ["Contract", "Meetings"],
+    tags: ["Contract Signing", "Meeting"],
     gallery: [
       {src: "/blog/28/28.2.jpeg"},
       {src: "/blog/28/28.3.jpeg"},
@@ -630,7 +630,38 @@ export const blogDetails: BlogDetail[] = [
       "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ຫຼື LAPNet (Lao National Payment Network)  ໄດ້ຈັດພິທີລົງນາມໃນສັນຍາການຮ່ວມທຶນ ຂອງບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ໃນຕອນເຊົ້າວັນທີ  22/11/2019, ທີ່ໂຮງແຮມ ຄຣາວ ພລາຊ່າ ໂດຍການໃຫ້ກຽດເຂົ້າຮ່ວມຂອງ ທ່ານ ສອນໄຊ ສິດພະໄຊ ຜູ້ວ່າການທະນາຄານແຫ່ງ  ສປປ ລາວ, ຕາງໜ້າຈາກກະຊວງອຸດສາຫະກຳ ແລະ ການຄ້າ ແລະ ບັນດາທະນາຄານຕາງໜ້າຈາກຜູ້ຖືຮຸ້ນ 9 ຝ່າຍ ທັງພາຍໃນ ແລະ  ຕ່າງປະເທດ ພ້ອມທັງການເຂົ້າຮ່ວມເປັນສັກຂີພະຍານຂອງຕາງໜ້າຈາກບັນດາທະນາຄານທຸລະກິດ ພາຍໃນ ສປປ ລາວ.",
       "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ໄດ້ສ້າງຕັ້ງຂຶ້ນພາຍໃຕ້ການຮ່ວມມື ຂອງ 9 ຜູ້ຖືຮຸ້ນອັນໄດ້ແກ່: ທະນາຄານ ແຫ່ງ ສປປ ລາວ, ທະນາຄານການຄ້າຕ່າງປະເທດລາວ ມະຫາຊົນ, ບໍລິສັດ ຢູນຽນເພ ສາກົນ,ທະນາຄານພັດທະນາລາວ, ທະນາຄານສົ່ງເສີມກະສິກຳ, ທະນາຄານຮ່ວມພັດທະນາ, ທະນາຄານຮ່ວມທຸລະກິດລາວ-ຫວຽດ,ທະນາຄານເອັສທີ ຈຳກັດ ແລະ ທະນາຄານ ບີໄອຊີ ລາວ ຈຳກັດ."
     ]
-  }
+  },
+  {
+    id: 29,
+    title: "ກອງປະຊຸມ ຄັ້ງທີ 47 ( JC 47 ).",
+    category: "Meeting",
+    date: "09 January 2025",
+    readTime: 'ໂພສເມື່ອ 11 Month ago',
+    image: "/blog/29/1.jpeg",
+    heroImage: "/blog/29/1.jpeg",
+    tags: ["LAOQR", "QRcrossborderpayment " , "LAPNet " , "ທຸກທີ່ທຸກເວລາທຸກຊ່ອງທາງການຊຳລະ"],
+    gallery: [
+      {src: "/blog/29/1.jpeg"},
+      {src: "/blog/29/2.jpeg"},
+      {src: "/blog/29/3.jpeg"},
+      {src: "/blog/29/4.jpeg"},
+      {src: "/blog/29/5.jpeg"},
+      {src: "/blog/29/6.jpeg"},
+      {src: "/blog/29/7.jpeg"},
+      {src: "/blog/29/8.jpeg"},
+      {src: "/blog/29/9.jpeg"},
+     
+
+    ],
+    content: [
+    "ໃນວັນທີ 09 ມັງກອນ 2025, ໃນຊ່ວງໄລຍະກອງປະຊຸມ ຄັ້ງທີ 47 (JC 47) ຂອງຄະນະກໍາມະການຮ່ວມມືທະວີພາຄີລະຫວ່າງລັດຖະບານ ສປປ ລາວ ແລະ ສສ ຫວຽດນາມ ປະຈຳປີ 2025, ພະນະທ່ານ ສອນໄຊ ສີພັນດອນ, ກົມການເມືອງສູນກາງພັກ, ນາຍົກລັດຖະມົນຕີແຫ່ງ ສປປ ລາວ ແລະ ພະນະທ່ານ ຟ້າມ ມິງ ຈິ່ງ, ກົມການເມືອງສູນກາງພັກ, ນາຍົກລັດຖະມົນຕີແຫ່ງ ສສ ຫວຽດນາມ ກໍໄດ້ໃຫ້ກຽດເຂົ້າຮ່ວມເປັນປະທານເປີດໂຕການໃຫ້ບໍລິການ *ການເຊື່ອມຕໍ່ລະບົບການຊໍາລະຍ່ອຍຂ້າມແດນ ໃນຮູບແບບ QR Code ລະຫວ່າງ ສປປ ລາວ ແລະ ສສ ຫວຽດນາມ* ",
+    "ພ້ອມນັ້ນ ທ່ານ ສຸລິສັກ ທຳນຸວົງ ຮອງຜູ້ວ່າການ ທະນາຄານແຫ່ງ ສປປ ລາວ, ທ່ານ ຟາມ ຕຽນ ຊຸງ ຮອງຜູ້ວ່າການ ທະນາຄານ ແຫ່ງ ລັດ ຫວຽດນາມ, ທ່ານ ມະໂນລິດ ຊຸມພົນພັກດີ ປະທານສະພາບໍລິຫານບໍລິສັດ LAPNet ແລະ ທ່ານ ຫງຽນ ກວາງ ຮຶງ ປະທານບໍລິສັດ NAPAS ພ້ອມດ້ວຍຄະນະລັດຖະມົນຕີຂອງສອງປະເທດກໍໃຫ້ກຽດເຂົ້າຮ່ວມເປີດໂຕພິທີດັ່ງກ່າວ. ",
+    "ຊຶ່ງໂຄງການດັ່ງກ່າວຖືວ່າເປັນຂີດໝາຍ ແລະ ບາດກ້າວສໍາຄັນຂອງສອງປະເທດ ໃນການຊຸກຍູ້ ສົ່ງເສີມດ້ານເສດຖະກິດ ແລະ ການນຳໃຊ້ສະກຸນເງິນທ້ອງຖິ່ນ ກີບ - ດົງ ລະຫວ່າງສອງປະເທດ.ສຳລັບໂຄງການການເຊື່ອມຕໍ່ລະບົບການຊໍາລະຍ່ອຍຂ້າມແດນ ໃນຮູບແບບ QR Code ລະຫວ່າງ ສປປ ລາວ ແລະ ສສ. ຫວຽດນາມ ແມ່ນໄດ້ແຕ່ງຕັ້ງ ທະນາຄານ ຫວຽດຕິນ ລາວ ຈໍາກັດ ເປັນ ທະນາຄານຫັກບັນຊີ (Settlement Bank) ເບື້ອງ ສປປ ລາວ ແລະ ໄດ້ແບ່ງອອກເປັນ 02 ໄລຍະ ຄື: ",
+    "ໄລຍະທີ 1: ສສ. ຫວຽດນາມ ສະແກນ ສປປ ລາວ: ນັບແຕ່ມື້ນີ້ ວັນທີ 09 ມັງກອນ 2025 ເປັນຕົ້ນໄປ, ນັກທ່ອງທຽວຈາກ ສສ ຫວຽດນາມ ທີ່ເດີນທາງມາ ສປປ ລາວ ສາມາດໃຊ້ Mobile Banking Application ຂອງຕົນ ທີ່ເປີດບັນຊີໄວ້ກັບທະນາຄານທຸລະກິດຢູ່ ສສ ຫວຽດນາມ ຈຳນວນ 07 ທະນາຄານ ທີ່ເຂົ້າຮ່ວມໂຄງການ ຄື: VTB VN, SACOM, BIDV, VCB, TPBank, BVBank, ແລະ Nam A Bank ສາມາດມາຊໍາລະຄ່າສິນຄ້າ ແລະ ບໍລິການຕ່າງໆກັບຮ້ານຄ້າ ທີ່ມີ QR Code ຂອງທະນາຄານທຸລະກິດ ໃນສປປ ລາວ ທັງໝົດມີ 14 ທະນາຄານ ຄື: BCEL, APB, LDB, BIC, JDB, LVB, STB, VTBL, ABL, IDB, MJBL, MBL, PSVB, ແລະ SACOM ທີ່ເຂົ້າຮ່ວມໃຫ້ບໍລິການຮັບຊໍາລະໃນເບື້ອງຕົ້ນນີ້; ",
+    "ໄລຍະທີ 2: ສປປ ລາວ ສະແກນ ສສ. ຫວຽດນາມ: ສຳລັບການຊຳລະເງິນ ຢູ່ຮ້ານຄ້າໃນ ສສ.ຫວຽດນາມ ດ້ວຍ QR Code ຈາກ Mobile Banking Application ຂອງ ສປປ ລາວ ແມ່ນຈະໃຫ້ສຳເລັດການພັດທະນາລະບົບ ແລະ ເປີດໃຫ້ບໍລິການ ຫລັງໄຕມາດ 3 ປີ 2025. ພວກເຮົາສັນຍາວ່າຈະນໍາເອົາຄວາມກ້າວຫນ້າຂອງການຊຳລະໂດຍການນຳໃຊ້ສະກຸນເງິນທ້ອງຖິ່ນ ເຕັກໂນໂລຊີທີ່ກ້າວໜ້າ, ຮັບປະກັນການເຮັດທຸລະກຳທີ່ສະດວກ, ວ່ອງໄວ ແລະ ປອດໄພ, ຍົກລະດັບປະສົບການຂອງລູກຄ້າ ແລະ ປະສິດທິພາບທາງທຸລະກິດໃຫ້ແກ່ປະຊາຊົນທັງສອງປະເທດ. ຂໍຂອບໃຈ",
+ 
+    ]
+  },
 ];
 
 export function getPostById(id: number | string): BlogDetail | undefined {

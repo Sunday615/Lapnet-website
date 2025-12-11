@@ -58,7 +58,7 @@ const openSidebarFromNavbar = () => {
                         <li>
                             <memberdropdown />
                         </li>
-                        <router-link to="/bloggrid"> <li style="padding-right: 20px;">ຂ່າວ ແລະ ກີດຈະກຳ</li></router-link>
+                        <router-link to="/bloggrid"> <li style="padding-right: 20px;">ຂ່າວ ແລະ ກິດຈະກຳ</li></router-link>
                        
                         <router-link to="/joinus">
                             <li>ຮ່ວມງານກັບເຮົາ</li>

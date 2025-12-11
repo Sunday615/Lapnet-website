@@ -196,7 +196,7 @@ export default {
         {
           id: 1,
           title: " ພິທີລົງນາມເຊັນສັນຍາໂຄງການຊຳລະຂ້າມແດນລາວ-ຈີນ ຜ່ານ QR CODE",
-          category: "Contract",
+          category: "Contract Signing",
           date: " 25 December 2024",
           readTime: "ໂພສເມື່ອ 8 month ago",
           excerpt:
@@ -206,7 +206,7 @@ export default {
         {
           id: 2,
           title: " ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.",
-          category: "Notification",
+          category: "Announcement",
           date: "12 August 2024",
           readTime: "ໂພສເມື່ອ 1 Year ago",
           excerpt:
@@ -216,7 +216,7 @@ export default {
         {
           id: 3,
           title: "ແຈ້ງເຊີນປະມູນ ອຸປະກອນ HARDWARE ເພ່ືອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNET.",
-          category: "Notification",
+          category: "Announcement",
           date: "16 May 2024",
           readTime: "ໂພສເມື່ອ 1 Year ago",
           excerpt:
@@ -226,7 +226,7 @@ export default {
         {
           id: 4,
           title: "ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ.",
-          category: "Grand Openning",
+          category: "Launch Event",
           date: "03 April 2024",
           readTime: "ໂພສເມື່ອ 1 Year ago",
           excerpt:
@@ -238,7 +238,7 @@ export default {
         {
           id: 5,
           title: "ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປລາວ ແລະ ປະເທດໄທ ໂດຍການຮ່ວມມືກັນລະຫວ່າງ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ(LAPNET) ແລະ ບໍລິສັດ NATIONAL ITMX (ITMX).",
-          category: "Contract",
+          category: "Contract Signing",
           date: "03 April 2024",
           readTime: "ໂພສເມື່ອ 1 Year ago",
           excerpt: "",
@@ -247,7 +247,7 @@ export default {
         {
           id: 6,
           title: "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ.",
-          category: "Meetings",
+          category: "Meeting",
           date: "01 April 2024",
           readTime: "ໂພສເມື່ອ 1 Year ago",
           excerpt:
@@ -257,7 +257,7 @@ export default {
         {
           id: 7,
           title: "ກອງປະຊຸມ ປຶກສາຫາລືຄວາມເປັນໄປໄດ້ ໃນການເກັບລາຍຮັບຈາກການຊໍາລະຄ່າໄຟຟ້າ ຜ່ານລະບົບສູນກາງ ການຊຳລະທຸລະກຳຍ່ອຍ (RETAILS PAYMENT OPERATOR) ຂອງ ບໍລິສັດ LAPNET.",
-          category: "Meetings",
+          category: "Meeting",
           date: "15 September 2023",
           readTime: "ໂພສເມື່ອ 2 Year ago",
           excerpt: "",
@@ -266,7 +266,7 @@ export default {
         {
           id: 8,
           title: "ກອງປະຊຸມ ທາບທາມການນຳສະເຫນີ ຂອງທະນາຄານທີ່ມີຄວາມພ້ອມ ແລະ ສະເໜີເປັນທະນາຄານຮັບຊຳລະໃນການ ເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນລະຫວ່າງ ສປປ ລາວ ແລະ ສສ.ຫວຽດນາມ.",
-          category: "Meetings",
+          category: "Meeting",
           date: "30 August 2023",
           readTime: " ໂພສເມື່ອ 2 Year ago",
           excerpt: "",
@@ -277,7 +277,7 @@ export default {
         {
           id: 9,
           title: " ເດີນທາງໄປແລກປ່ຽນບົດຮຽນຮ່ວມກັບ ທະນາຄານແຫ່ງລັດຫວຽດນາມ, ບໍລິສັດ ຫຸ້ນສ່ວນຊໍາລະແຫ່ງຊາດຫວຽດນາມ (NATIONAL PAYMENT CORPORATION OF VIETNAM ຫຼື NAPAS).",
-          category: "Meetings",
+          category: "Meeting",
           date: "22 August 2023",
           readTime: " ໂພສເມື່ອ 2 Year ago",
           excerpt: "",
@@ -286,7 +286,7 @@ export default {
         {
           id: 10,
           title: "ພິທີມອບ-ຮັບ ຕຳແໜ່ງ ປະທານສະພາບໍລິຫານ ແລະ ຜູ້ອຳນວຍການ ບໍລິສັດ ລາວເນເຊີນນໍ ເມັ້ນ ເນັດເວີກ ຈຳກັດ ລະຫວ່າງ ຜູ້ເກົ່າ ແລະ ຜູ້ໃໝ່.",
-          category: "Meetings",
+          category: "Meeting",
           date: "21 August 2023",
           readTime: "ໂພສເມື່ອ 2 Year ago",
           excerpt:
@@ -296,7 +296,7 @@ export default {
         {
           id: 11,
           title: "LAPNET ໄດ້ສຳເລັດການຈັດກອງປະຊຸມສະພາບໍລິຫານສະໄໝສາມັນ ປະຈຳໄຕມາດ I ປະຈຳປີ 2023.",
-          category: "Meetings",
+          category: "Meeting",
           date: "28 April 2023",
           readTime: " ໂພສເມື່ອ 2 Year ago",
           excerpt:
@@ -306,7 +306,7 @@ export default {
         {
           id: 12,
           title: "ພິທີມອບຮັບໃບຍ້ອງຍໍ ຈາກລັດຖະມົນຕີກະຊວງການເງິນ.",
-          category: "Meetings",
+          category: "Meeting",
           date: "05 April 2023",
           readTime: "ໂພສເມື່ອ 2 Year ago",
           excerpt:
@@ -318,7 +318,7 @@ export default {
         {
           id: 13,
           title: "LAPNET TRIP 11-12 MARCH 2023 AT VANGVIENG.",
-          category: "Meetings",
+          category: "Activity",
           date: "11 March 2023",
           readTime: "ໂພສເມື່ອ 2 Year ago",
           excerpt:
@@ -328,7 +328,7 @@ export default {
         {
           id: 14,
           title: "ບໍລິສັດ LAPNET ໄດ້ເຂົ້າຮ່ວມງານ ສັບປະດາດິຈິຕ໋ອນລາວ ປະຈຳປີ 2022.",
-          category: "Events",
+          category: "Event",
           date: "21 December 2022",
           readTime: "ໂພສເມື່ອ 3 Year ago",
           excerpt:
@@ -338,7 +338,7 @@ export default {
         {
           id: 15,
           title: "ພິທີລົງນາມສັນຍາວ່າດ້ວຍການເປັນຄູ່ຮ່ວມມື ແລະ ພິທີເປີດໂຕການຊຳລະຂ້າມທະນາຄານຜ່ານ LAPNET QR PAY ໃນວັນທີ 06 ຕຸລາ 2022 ທີ່ຜ່ານມາ.",
-          category: "Contract",
+          category: "Contract Signing",
           date: "21 December 2022",
           readTime: "ໂພສເມື່ອ 3 Year ago",
           excerpt:
@@ -348,7 +348,7 @@ export default {
         {
           id: 16,
           title: "ເທດສະການສະຕາດອັບລາວ ບໍລິສັດ LAPNET ກໍໄດ້ຮັບກຽດໃຫ້ເຂົ້າຮ່ວມບັນຍາຍເພື່ອນຳສະເໜີກ່ຽວກັບ ບໍລິສັດ LAPNET.",
-          category: "Meetings",
+          category: "Event",
           date: "18 December 2021",
           readTime: "ໂພສເມື່ອ 4 Year ago",
           excerpt:
@@ -360,7 +360,7 @@ export default {
         {
           id: 17,
           title: "ພິທີເຊັນສັນຍາແຕ່ງຕັ້ງທີ່ປຶກສາດ້ານການເງິນ ລະຫວ່າງ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ແລະ ບໍລິສັດ ຫຼັກຊັບ ລ້ານຊ້າງ ມະຫາຊົນ.",
-          category: "Contract",
+          category: "Contract Signing",
           date: "14 July 2021",
           readTime: "ໂພສເມື່ອ 4 Year ago",
           excerpt:
@@ -370,7 +370,7 @@ export default {
         {
           id: 18,
           title: "ບໍລິສັດ LAPNET ໄດ້ຈັດພິທີມອບ-ຮັບໜ້າທີ່ປະທານສະພາບໍລິຫານຄົນໃຫມ່.",
-          category: "Contract",
+          category: "Contract Signing",
           date: "30 June 2021",
           readTime: "ໂພສເມື່ອ 4 Year ago",
           excerpt:
@@ -380,7 +380,7 @@ export default {
         {
           id: 19,
           title: "ລາຍຊື່ ຜູ້ຄວບຄຸມລະບົບການຊໍາລະທຸລະກຳຍ່ອຍ ຜູ້ໃຫ້ບໍລິການຊໍາລະ ທີ່ໄດ້ຮັບອະນຸຍາດ ຈາກ ທະນາຄານແຫ່ງ ສປປ ລາວ.",
-          category: "Notification",
+          category: "Announcement",
           date: "17 June 2021",
           readTime: "ໂພສເມື່ອ 4 Year ago",
           excerpt:
@@ -390,7 +390,7 @@ export default {
         {
           id: 20,
           title: "ບໍລິສັດ LAPNET ໄດ້ຮັບມອບຜ້າປິດປາກ ຈາກບໍລິສັດ VIET CARD INTERNATIONAL TECHNOLOGYCORPORATION.",
-          category: "Meetings",
+          category: "Meeting",
           date: "30 April 2021",
           readTime: "ໂພສເມື່ອ 4 Year ago",
           excerpt: "",
@@ -401,7 +401,7 @@ export default {
         {
           id: 21,
           title: "LAPNET ຈັດກອງປະຊຸມສະພາບໍລິຫານ ສະໄໝສາມັນ ແລະ ກອງປະຊຸມຜູ້ຖືຮຸ້ນ ສະໄໝສາມັນ ຄັ້ງທີ I ປະຈໍາປີ 2021.",
-          category: "Contract",
+          category: "Meeting",
           date: "12 March 2021",
           readTime: "ໂພສເມື່ອ 4 Year ago",
           excerpt:
@@ -411,7 +411,7 @@ export default {
         {
           id: 22,
           title: "ພິທີເປີດໂຕຜະລິດຕະພັນ ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື.",
-          category: "Grand Openning",
+          category: "Launch Event",
           date: "08 December 2020",
           readTime: "ໂພສເມື່ອ 5 Year ago",
           excerpt:
@@ -441,7 +441,7 @@ export default {
         {
           id: 25,
           title: "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ຕ້ອນຮັບຄະນະນັກສຶກສາ ຈາກວິທະຍາໄລສຸດສະກະ.",
-          category: "Meetings",
+          category: "Meeting",
           date: "11 June 2020",
           readTime: "ໂພສເມື່ອ 5 Year ago",
           excerpt: "",
@@ -452,7 +452,7 @@ export default {
         {
           id: 26,
           title: "ແຈ້ງການປະມູນ.",
-          category: "Notification",
+          category: "Announcement",
           date: "11 June 2020",
           readTime: "ໂພສເມື່ອ 5 Year ago",
           excerpt:
@@ -462,7 +462,7 @@ export default {
         {
           id: 27,
           title: "ພິທີເປີດບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ.",
-          category: "Grand Openning",
+          category: "Launch Event",
           date: "25 November 2019",
           readTime: "ໂພສເມື່ອ 6 Year ago",
           excerpt:
@@ -472,13 +472,23 @@ export default {
         {
           id: 28,
           title: "ພິທີລົງນາມໃນສັນຍາການຮ່ວມທຶນຂອງ ບໍລິສັດ ລາວ ເນເຊິນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ.",
-          category: "Contract",
+          category: "Contract Signing",
           date: "22 November 2019",
           readTime: "ໂພສເມື່ອ 6 Year ago",
           excerpt:
             "ພິທີລົງນາມໃນສັນຍາການຮ່ວມທຶນຂອງ ບໍລິສັດ ລາວ ເນເຊິນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ....",
           image: "/blog/28/28.3.jpeg"
-        }
+        },
+        {
+          id: 29,
+          title: "ກອງປະຊຸມ ຄັ້ງທີ 47 (JC 47).",
+          category: "Meeting",
+          date: "09 January 2025",
+          readTime: "ໂພສເມື່ອ 11 Month ago",
+          excerpt:
+            "ກອງປະຊຸມ ຄັ້ງທີ 47 ( JC 47 ) ຂອງຄະນະກໍາມະການຮ່ວມມືທະວີພາຄີລະຫວ່າງລັດຖະບານ ສປປ ລາວ ແລະ ສສ ຫວຽດນາມ ປະຈຳປີ 2025",
+          image: "/blog/29/9.jpeg"
+        },
       ]
     };
   },

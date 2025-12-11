@@ -82,7 +82,7 @@ const props = defineProps({
     imageSrc: {
         type: String,
         default:
-            "/product/allatm/product4.webp",
+            "/product/allatm/product4.jpg",
     },
 });
 
