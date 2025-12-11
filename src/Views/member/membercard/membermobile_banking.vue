@@ -6,7 +6,7 @@ import main_navbar from '../../../components/miannavbar/main_navbar.vue';
 import mainfooter from '../../../components/footer/mainfooter/mainfooter.vue';
 import membercard from '../../../components/membercard/membercard.vue';
 import logofootermembercardmobilebanking from '../../../components/footer/logomemberfooter/logofootermembercardmobilebanking.vue';
-
+import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue';
 
 onMounted(() => {
   window.scrollTo({
@@ -127,7 +127,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/BCEL.png",
         title: "ທະນາຄານ ການຄ້າຕ່າງປະເທດລາວ ມະຫາຊົນ",
-        subtitle: "Banque Pour Le Commerce Exterieur Lao Public",
+        subtitle: "Banque Pour Le Commerce Exterieur Lao Public (BCEL)",
         link1: "https://www.facebook.com/BCEL.Bank",
         link2: "https://www.bcel.com.la",
         layer1: "linear-gradient(#cb0202, #a71f33) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -140,7 +140,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/LDB.PNG",
         title: "ທະນາຄານ ພັດທະນາລາວ ຈຳກັດ",
-        subtitle: "Lao Development Bank",
+        subtitle: "Lao Development Bank (LDB)",
         link1: "https://www.facebook.com/ldblao",
         link2: "https://www.ldblao.la/",
         layer1: "linear-gradient(#233f73, #1c335f) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -153,7 +153,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/APBB.PNG",
         title: "ທະນາຄານ ສົ່ງເສີມກະສິກໍາ ຈຳກັດ ",
-        subtitle: "Agricultural Promotion Bank",
+        subtitle: "Agricultural Promotion Bank (APB)",
         link1: "https://www.facebook.com/APB.Bank/?locale=th_TH",
         link2: "https://www.apb.com.la",
         layer1: "linear-gradient(#379685, #215a50) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -166,7 +166,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/JDB.png",
         title: "ທະນາຄານ ຮ່ວມພັດທະນາ ",
-        subtitle: "Joint Development Bank",
+        subtitle: "Joint Development Bank (JDB)",
         link1: "https://www.facebook.com/jdbbanklaos",
         link2: "https://www.jdbbank.com.la/",
         layer1: "linear-gradient(#2b83df, #0953a0) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -179,7 +179,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/Maruhan.png",
         title: "ທະນາຄານ ມາຣູຮານ ເຈແປນ ລາວ ຈຳກັດ  ",
-        subtitle: "MARUHAN Japan Bank Lao",
+        subtitle: "MARUHAN Japan Bank Lao (MJB)",
         link1: "https://www.facebook.com/MaruhanJapanBankLao/",
         link2: "https://maruhanjapanbanklao.com",
         layer1: "linear-gradient(#eb1c24, #6d0302) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -192,7 +192,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/lvb.PNG",
         title: "ທະນາຄານ ຮ່ວມທຸລະກິດ ລາວ-ຫວຽດ  ",
-        subtitle: "Laos - Vietnam Joint Venture Bank",
+        subtitle: "Laos - Vietnam Joint Venture Bank (LVB)",
         link1: "https://www.facebook.com/LaoVietBank",
         link2: "https://www.laovietbank.com.la/la/",
         layer1: "linear-gradient(#18479e, #232299) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -205,7 +205,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/ICBCborder.png",
         title: "ທະນາຄານ ອຸດສະຫະກໍາ ແລະ ການຄ້າຈີນ ຈຳກັດ   ",
-        subtitle: "Industrial and Commercial Bank of China Limited",
+        subtitle: "Industrial and Commercial Bank of China Limited (ICBC)",
         link1: "https://www.facebook.com/icbcglobal/",
         link2: "https://vientiane.icbc.com.cn/en/column/1438058341816746015.html",
         layer1: "linear-gradient(#cb0202, #a71f33) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -218,7 +218,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/bocborder.png",
         title: " ທະນາຄານແຫ່ງ ປະເທດຈີນ ຈຳກັດ   ",
-        subtitle: "Bank of China",
+        subtitle: "Bank of China (BOC)",
         link1: "https://www.facebook.com/profile.php?id=100066833677650",
         link2: "https://www.boc.cn/en/",
         layer1: "linear-gradient(#c00b11, #a71f33) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -231,7 +231,7 @@ const members = ref([
     {
         image: "/logoallmember/retangle_scale/VTB.jpg",
         title: " ທະນາຄານ ຫວຽດຕິນ ລາວ ຈຳກັດ  ",
-        subtitle: "VietinBank",
+        subtitle: "VietinBank (VTB)",
         link1: "https://www.facebook.com/vtblao",
         link2: "https://laoefast.vietinbank.com.la",
         layer1: "linear-gradient(#0086e7, #0c51d1) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -244,7 +244,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/IB.png",
         title: " ທະນາຄານ ອິນໂດຈີນ ຈຳກັດ  ",
-        subtitle: "Indochina Bank",
+        subtitle: "Indochina Bank (IDB)",
         link1: "https://www.facebook.com/indochina.bank.page",
         link2: "https://iblaos.com",
         layer1: "linear-gradient(#8828d1, #430076) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -257,7 +257,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/ACL2.png",
         title: "ທະນາຄານ ເອຊີລີດາລາວ ຈໍາກັດ   ",
-        subtitle: "ACLEDA BANK",
+        subtitle: "ACLEDA BANK (ACLE)",
         link1: "https://www.facebook.com/acledabanklao",
         link2: "https://www.acledabank.com.la/la/lao/",
         layer1: "linear-gradient(#006DBD, #183A67) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -270,7 +270,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/BIC.png",
         title: "ທະນາຄານ ບີໄອຊີ ລາວ ຈໍາກັດ    ",
-        subtitle: "BIC Bank Lao",
+        subtitle: "BIC Bank Lao (BIC)",
         link1: "https://www.facebook.com/BICBANKLAO",
         link2: "https://www.biclaos.com",
         layer1: "linear-gradient(#344872, #213051) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -283,7 +283,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/SACOM.PNG",
         title: "ທະນາຄານ ໄຊງ່ອນເທືອງຕິ່ນ ລາວ   ",
-        subtitle: "Saigon Thuong Tin Commercial Joint Stock Bank",
+        subtitle: "Saigon Thuong Tin Commercial Joint Stock Bank (SACOM)",
         link1: "https://www.facebook.com/SacombankLao",
         link2: "https://www.sacombank.com.la",
         layer1: "linear-gradient(#18479e, #232299) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -296,7 +296,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/STB.png",
         title: "ທະນາຄານ ເອັສທີ ຈຳກັດ  ",
-        subtitle: "ST Bank Limited",
+        subtitle: "ST Bank Limited (STB)",
         link1: "https://www.facebook.com/STBankLaos",
         link2: "https://www.stbanklaos.la",
         layer1: "linear-gradient(#0903ff, #010098) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -309,7 +309,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/Kasikorn.png",
         title: "ທະນາຄານ ກະສິກອນໄທ ຈຳກັດ ",
-        subtitle: "KASIKORNBANK Public Company Limited",
+        subtitle: "KASIKORNBANK Public Company Limited (KBANK)",
         link1: "https://www.facebook.com/KBankLaos/",
         link2: "https://www.kasikornbank.com.la",
         layer1: "linear-gradient(#00a850, #006530) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -322,7 +322,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/BFL.png",
         title: "ທະນາຄານ ລາວ-ຝລັ່ງ ຈຳກັດ",
-        subtitle: "Banque Franco-Lao",
+        subtitle: "Banque Franco-Lao ",
         link1: "https://www.facebook.com/bflbank",
         link2: "https://bfl-bred.com",
         layer1: "linear-gradient(#006dbd, #183a67) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -335,7 +335,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/PSVB.png",
         title: "ທະນາຄານ ພົງສະຫວັນ ຈໍາກັດ",
-        subtitle: "Phongsavanh Bank",
+        subtitle: "Phongsavanh Bank (PSV)",
         link1: "https://www.facebook.com/phongsavanhbankltd",
         link2: "https://www.phongsavanhbank.com",
         layer1: "linear-gradient(#04ca63, #0b9444) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -361,7 +361,7 @@ const members = ref([
     {
         image: "/logoallmember/circle_scale/mmoney.png",
         title: "ບໍລິສັດ ລາວໂມບາຍມັນນີ ຈຳກັດຜູ້ດຽວ",
-        subtitle: "MmoneyX",
+        subtitle: "MmoneyX ",
         link1: "https://www.facebook.com/laomobilemoney",
         link2: "https://www.mmoney.la",
         layer1: "linear-gradient(#ef3327, #a20000) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
@@ -681,7 +681,7 @@ watch(filteredMembers, async () => {
 
     <div class="boxmargin" style="width: 100%; height: 15vh"></div>
     <logofootermembercardmobilebanking :logos="memberLogos" />
-    <mainfooter />
+    <secondfooter />
 </template>
 
 <style scoped>

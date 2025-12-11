@@ -9,6 +9,7 @@ import cardscrolling from './cardscrolling/cardscrolling2.vue';
 import tablefee from '../../components/tablefee/tablefee.vue';
 import stepwork from './stepwork/stepwork.vue';
 import hero_sectionproduct3 from '../../Views/products/product_herosection/hero_sectionproduct3.vue'
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
 import { onMounted } from 'vue';
 onMounted(() => {
   window.scrollTo({
@@ -141,7 +142,7 @@ const memberLogos = [
       ]" :logos="memberLogos" />
    </div>
 
-   <mainfooter />
+   <secondfooter />
 
 </template>
 

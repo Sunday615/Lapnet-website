@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import navbar from '../../components/miannavbar/main_navbar.vue';
-import mainfooter from '../../components/footer/mainfooter/mainfooter.vue';
+
 
 import videobackgroundhomepage from '../../components/videobackground/productbackgroundvideo.vue';
 
@@ -8,7 +8,7 @@ import videobackgroundhomepage from '../../components/videobackground/productbac
 import product6swiper from '../../Views/products/swipper/product6swiper.vue';
 import crossborderbtn from '../../components/button/crossborderbtn.vue';
 import product6tech from '../techbenetfit/product6tech.vue';
-
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
 import vdoproductcrossborderKH_LA from '../../components/videoproductcrossborder/vdoproductcrossborderKH_LA.vue';
 import vdoproductcrossborderLA_KH from '../../components/videoproductcrossborder/vdoproductcrossborderLA_KH.vue';
 import vdoproductcrossborderTH_LA from '../../components/videoproductcrossborder/vdoproductcrossborderTH_LA.vue';
@@ -127,7 +127,7 @@ watch(
    <div class="descriptionforcustomer">
       <product6tech />
    </div>
-   <mainfooter />
+   <secondfooter />
 </template>
 
 

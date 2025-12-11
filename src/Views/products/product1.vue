@@ -6,6 +6,7 @@ import videobackgroundhomepage from '../../components/videobackground/productbac
 import tagproduct from '../../components/tagproduct/tagproduct.vue';
 import product1_footerlogomember from '../../components/footer/logomemberfooter/product1_footerlogomember.vue';
 import hero_sectionproduct1 from './product_herosection/hero_sectionproduct1.vue';
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
 import { onMounted } from 'vue';
 onMounted(() => {
   window.scrollTo({
@@ -122,7 +123,7 @@ const memberLogos = [
 
 <product1_footerlogomember :logos="memberLogos"/>
    </div>
-  <mainfooter/>
+  <secondfooter/>
 </template>
 
 

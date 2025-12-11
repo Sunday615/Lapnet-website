@@ -7,6 +7,7 @@ import tagproduct from '../../components/tagproduct/tagproduct.vue';
 import product1_footerlogomember from '../../components/footer/logomemberfooter/product1_footerlogomember.vue';
 import cardscrolling from './cardscrolling/cardscrolling.vue';
 import hero_sectionproduct2 from '../../Views/products/product_herosection/hero_sectionproduct2.vue'
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
 import { onMounted } from 'vue';
 onMounted(() => {
   window.scrollTo({
@@ -141,7 +142,7 @@ const memberLogos = [
       ]" :logos="memberLogos" />
    </div>
 
-   <mainfooter />
+   <secondfooter />
 
 </template>
 

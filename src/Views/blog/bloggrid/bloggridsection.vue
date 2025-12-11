@@ -21,7 +21,7 @@
           <input
             v-model="searchQuery"
             type="text"
-            placeholder="Search by title, category, or keyword..."
+            placeholder="Search by title, category, date, month, or year..."
             class="search-input"
           />
         </div>
@@ -158,8 +158,6 @@
       </div>
     </div>
   </section>
-
-
 </template>
 
 <script>
@@ -524,13 +522,25 @@ export default {
 
           // Search filter
           if (!query) return true;
-          const haystack = (
-            post.title +
-            " " +
-            post.category +
-            " " +
-            post.excerpt
-          ).toLowerCase();
+
+          const monthLabel =
+            this.months.find((m) => m.value === month)?.label || "";
+
+          // Build a big searchable string
+          const haystack = [
+            post.title,
+            post.category,
+            post.excerpt,
+            post.date,               // full date as text
+            post.readTime,           // "ໂພສເມື່ອ 1 Year ago"
+            year,                    // numeric year
+            month,                   // numeric month
+            monthLabel,              // month name (English)
+            "ຂ່າວສານ ແລະ ກິດຈະກຳ"  // header text
+          ]
+            .join(" ")
+            .toLowerCase();
+
           return haystack.includes(query);
         })
         .sort((a, b) => {
@@ -550,14 +560,8 @@ export default {
   },
 
   watch: {
+    // only sync query param, no scroll here
     currentPage(newVal) {
-      // After page changes (Prev/Next/click page pill or from detail back)
-      this.$nextTick(() => {
-        this.scrollToTop();
-        this.animateCards();
-      });
-
-      // Sync page into route query
       if (this.$router) {
         const q = { ...this.$route.query, page: newVal };
         this.$router.replace({
@@ -567,32 +571,29 @@ export default {
         });
       }
     },
+    // when search/filter changes: reset to page 1 + animate, but DON'T scroll to top
     searchQuery() {
       this.currentPage = 1;
       this.$nextTick(() => {
-        this.scrollToTop();
         this.animateCards();
       });
     },
     selectedYear() {
       this.currentPage = 1;
       this.$nextTick(() => {
-        this.scrollToTop();
         this.animateCards();
       });
     },
     selectedMonth() {
       this.currentPage = 1;
       this.$nextTick(() => {
-        this.scrollToTop();
         this.animateCards();
       });
     }
   },
 
   mounted() {
-    // On first load
-    this.scrollToTop();
+    // On first load, just animate (no auto scroll to top)
     this.animateCards();
   },
 
@@ -606,24 +607,37 @@ export default {
     },
     parsePostDate(post) {
       // Works with date strings like "25 December 2024"
-      return new Date(post.date);
+      return new Date(String(post.date).trim());
     },
     getPostYear(post) {
       return this.parsePostDate(post).getFullYear();
     },
+    // Scroll to top ONLY when pagination is clicked
     nextPage() {
       if (this.currentPage < this.totalPages) {
         this.currentPage += 1;
+        this.$nextTick(() => {
+          this.scrollToTop();
+          this.animateCards();
+        });
       }
     },
     prevPage() {
       if (this.currentPage > 1) {
         this.currentPage -= 1;
+        this.$nextTick(() => {
+          this.scrollToTop();
+          this.animateCards();
+        });
       }
     },
     goToPage(page) {
-      if (page >= 1 && page <= this.totalPages) {
+      if (page >= 1 && page <= this.totalPages && page !== this.currentPage) {
         this.currentPage = page;
+        this.$nextTick(() => {
+          this.scrollToTop();
+          this.animateCards();
+        });
       }
     },
     animateCards() {

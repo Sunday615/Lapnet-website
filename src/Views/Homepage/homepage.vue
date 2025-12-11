@@ -16,6 +16,10 @@ import techbox from '../../components/button/techbox.vue';
 import allmemberscrolling from '../../components/swiper/memberscrolling/allmemberscrolling.vue';
 import bloghomepage from '../../components/blog/hompage/bloghomepage.vue';
 import mainfooter from '../../components/footer/mainfooter/mainfooter.vue';
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
+
+
+
 
 const heroVideo = '/videos/homepagecrossborder.mp4'
 const mobile_transfer = '/videos/mobiletransfer.mp4'
@@ -202,7 +206,7 @@ const openSidebarFromNavbar = () => {
         <bloghomepage />
     </div>
 
-    <mainfooter style="margin-top: 100px;" />
+    <secondfooter style="margin-top: 100px;" />
 
 </template>
 

@@ -7,7 +7,11 @@ import tagproduct from '../../components/tagproduct/tagproduct.vue';
 import product5_footerlogomember from '../../components/footer/logomemberfooter/product5_footerlogomember.vue';
 import product5tech from '../techbenetfit/product5tech.vue';
 import hero_sectionproduct5 from '../../Views/products/product_herosection/hero_sectionproduct5.vue'
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
+
 import { onMounted } from 'vue';
+
+
 onMounted(() => {
   window.scrollTo({
     top: 0,
@@ -118,7 +122,7 @@ const memberLogos = [
     
       ]" :logos="memberLogos" />
    </div>
-  <mainfooter/>
+  <secondfooter/>
 </template>
 
 

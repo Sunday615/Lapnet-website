@@ -6,7 +6,7 @@ import main_navbar from '../../../components/miannavbar/main_navbar.vue';
 import mainfooter from '../../../components/footer/mainfooter/mainfooter.vue';
 import membercard from '../../../components/membercard/membercard.vue';
 import logofootermembercardatm from '../../../components/footer/logomemberfooter/logofootermembercardatm.vue';
-
+import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue';
 onMounted(() => {
   window.scrollTo({
     top: 0,
@@ -602,7 +602,7 @@ watch(filteredMembers, async () => {
 
   <div class="boxmargin" style="width: 100%; height: 15vh"></div>
   <logofootermembercardatm :logos="memberLogos" />
-  <mainfooter />
+  <secondfooter />
 </template>
 
 <style scoped>

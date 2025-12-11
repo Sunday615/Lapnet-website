@@ -9,6 +9,8 @@ import product4tech from '../techbenetfit/product4tech.vue';
 import logofloating from '../../components/logofloating/logofloating.vue';
 import tablefee from '../../components/tablefee/tablefee.vue';
 import hero_sectionproduct4 from '../../Views/products/product_herosection/hero_sectionproduct4.vue'
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
+
 import { onMounted } from 'vue';
 onMounted(() => {
   window.scrollTo({
@@ -131,9 +133,11 @@ const memberLogos = [
          <logofloating />
       </div>
    </div>
+      <div class="boxmargin" style="width: 100%; height:15vh"></div>
    <div class="tablefee">
       <tablefee />
    </div>
+   <div class="boxmargin" style="width: 100%; height:15vh"></div>
    <div class="footermemberproduct1">
       <product4_footerlogomember :subtitle="`  ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື (Fund Transfer via Mobile
             Application) ໂດຍນຳໃຊ້ລະບົບ LMPS ໃນການເຊື່ອມໂຍງຜ່ານ
@@ -145,14 +149,14 @@ const memberLogos = [
             ]" :logos="memberLogos" />
    </div>
 
-   <mainfooter />
+   <secondfooter />
 </template>
 
 
 <style scoped>
 .tablefee {
    width: 100%;
-   height: 100vh;
+   height: auto;
 
 
 
@@ -161,7 +165,7 @@ const memberLogos = [
 
 @media (max-width: 720px) {
    .tablefee {
-      overflow: auto;
+     overflow: auto;
    }
 
 }
