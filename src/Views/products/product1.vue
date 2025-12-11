@@ -30,18 +30,28 @@ const memberLogos = [
     alt: "Partner B",
   },
   {
-    src: "/logoallmember/circle_scale/JDB.png",
-    alt: "Client X",
-  },
-  {
-     src: "/logoallmember/circle_scale/Maruhan.png",
-    alt: "Client Y",
-  },
-  {
      src: "/logoallmember/circle_scale/lvb.PNG",
     alt: "Client Z",
   },
   {
+    src: "/logoallmember/circle_scale/JDB.png",
+    alt: "Client X",
+  },
+   {
+     src: "/logoallmember/circle_scale/STB.png",
+    alt: "Client Z",
+  },
+  {
+     src: "/logoallmember/circle_scale/BIC.png",
+    alt: "Client Z",
+  },
+  
+    {
+     src: "/logoallmember/circle_scale/Maruhan.png",
+    alt: "Client Y",
+  },
+  {
+   
      src: "/logoallmember/circle_scale/ICBC.png",
     alt: "Client Z",
   },
@@ -61,18 +71,12 @@ const memberLogos = [
      src: "/logoallmember/circle_scale/ACLB.png",
     alt: "Client Z",
   },
-  {
-     src: "/logoallmember/circle_scale/BIC.png",
-    alt: "Client Z",
-  },
+
   {
      src: "/logoallmember/circle_scale/SACOM.PNG",
     alt: "Client Z",
   },
-  {
-     src: "/logoallmember/circle_scale/STB.png",
-    alt: "Client Z",
-  },
+ 
   {
      src: "/logoallmember/circle_scale/Kasikorn.png",
     alt: "Client Z",

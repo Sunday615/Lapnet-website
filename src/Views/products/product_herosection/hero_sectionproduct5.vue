@@ -4,13 +4,13 @@
             <!-- LEFT: TEXT -->
             <div class="hero-left">
                 <h1 class="hero-title">
-                   <span> ການຊໍາລະເງິນ</span>ຂ້າມທະນາຄານ<span>ຜ່ານ QR</span>
+                   <span> ການຊໍາລະເງິນ</span>ຂ້າມທະນາຄານຜ່ານ<span> LAPNet</span>
                 </h1>
 
                 <p class="hero-subtitle">
-                   ການຊໍາລະຂ້າມທະນາຄານຜ່ານ LAPNet QRPay ໂດຍນຳໃຊ້ລະບົບ LMPS ໃນການເຊື່ອມໂຍງຜ່ານ Applications ຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet ໃຫ້ສາມາດນຳໃຊ້ຟັງຊັ່ນການດຳເນີນທຸລະກຳຊໍາລະຜ່ານ QR ຂອງທະນາຄານອື່ນໄດ້
+                   ການຊໍາລະຂ້າມທະນາຄານຜ່ານ LAPNet LAOQR ໂດຍນຳໃຊ້ລະບົບ LMPS ໃນການເຊື່ອມໂຍງຜ່ານ Applications ຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet ໃຫ້ສາມາດນຳໃຊ້ຟັງຊັ່ນການດຳເນີນທຸລະກຳຊໍາລະຜ່ານ QR ຂອງທະນາຄານອື່ນໄດ້
                 </p>
-                <tagproduct label="ຜະລິດຕະພັນ ແລະ ການບໍລິການ" />
+                
             </div>
 
             <!-- RIGHT: SINGLE 3D MOCKUP FOLLOW MOUSE -->

@@ -31,17 +31,25 @@ const memberLogos = [
       src: "/logoallmember/circle_scale/APBB.PNG",
       alt: "Partner B",
    },
+    {
+      src: "/logoallmember/circle_scale/lvb.PNG",
+      alt: "Client Z",
+   },
    {
       src: "/logoallmember/circle_scale/JDB.png",
       alt: "Client X",
    },
-   {
+  {
+      src: "/logoallmember/circle_scale/STB.png",
+      alt: "Client Z",
+   },
+    {
+      src: "/logoallmember/circle_scale/BIC.png",
+      alt: "Client Z",
+   },
+    {
       src: "/logoallmember/circle_scale/Maruhan.png",
       alt: "Client Y",
-   },
-   {
-      src: "/logoallmember/circle_scale/lvb.PNG",
-      alt: "Client Z",
    },
    {
       src: "/logoallmember/circle_scale/ICBC.png",
@@ -63,18 +71,12 @@ const memberLogos = [
       src: "/logoallmember/circle_scale/ACLB.png",
       alt: "Client Z",
    },
-   {
-      src: "/logoallmember/circle_scale/BIC.png",
-      alt: "Client Z",
-   },
+ 
    {
       src: "/logoallmember/circle_scale/SACOM.PNG",
       alt: "Client Z",
    },
-   {
-      src: "/logoallmember/circle_scale/STB.png",
-      alt: "Client Z",
-   },
+   
    {
       src: "/logoallmember/circle_scale/Kasikorn.png",
       alt: "Client Z",
@@ -122,13 +124,13 @@ const memberLogos = [
    </div>
    <div class="cardscrolling">
 
-      <cardscrolling title="ເງື່ອນໄຂການບໍລິການ" :subtitle="` ການຖອນເງິນສົດຜ່ານຕູ້ເອທີເອັມ ແມ່ນນຳໃຊ້ລະບົບແລັບໃນການ<br />
+      <cardscrolling title="ເງື່ອນໄຂການບໍລິການ" :subtitle="` ການຖອນເງິນສົດຜ່ານຕູ້ເອທີເອັມ ແມ່ນນຳໃຊ້ລະບົບແລັບໃນການ
             ເຊື່ອມໂຍງຕູ້ເອທີເອັມຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກຂອງ
             ບໍລິສັດລາວ ເນເຊີນນໍເພເມັ້ນ ເນັດເວີກ ໃຫ້ສາມາດໃຊ້ຟັງຊັ່ນການຖອນ
             ເງິນຂ້າມທະນາຄານໄດ້.`" :features="[
                ' ເຊິ່ງການຖອນເງິນສົດຂ້າມຕູ້ເອທີເອັມນີ້ແມ່ນຈະຕ້ອງໄດ້ເສຍຄ່າທຳນຽມ 2,000 ກີບ ຕໍ່ ຄັ້ງ.',
 
-            ]" primary-button-label="ຜະລິດຕະພັນ ແລະ ການບໍລິການ" badge-label="ATM Cash Withdraw"
+            ]" badge-label="ATM Cash Withdraw"
          badge-description="ທະນາຄານສະມາຊິກທັງຫມົດທີເຂົ້າຮ່ວມ : 16 ທະນາຄານ" />
    </div>
    <div class="footermemberproduct1">

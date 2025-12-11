@@ -84,7 +84,7 @@
   </div>
 
   <div class="boxmargin"></div>
-  <mainfooter />
+  <secondfooter />
 </template>
 
 <script setup>
@@ -94,7 +94,7 @@ import { gsap } from 'gsap';
 import bod_navbar from '../../../Views/Aboutus/companystructure/navbarcompany/bod_navbar.vue';
 import main_navbar from '../../../components/miannavbar/main_navbar.vue';
 import mainfooter from '../../../components/footer/mainfooter/mainfooter.vue';
-
+import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue';
 const orgShell = ref(null);
 let ctx = null;
 

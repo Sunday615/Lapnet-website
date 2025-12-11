@@ -3,6 +3,7 @@
 import main_navbar from '../../../components/miannavbar/main_navbar.vue';
 import mainfooter from '../../../components/footer/mainfooter/mainfooter.vue';
 import bloggridsection from './bloggridsection.vue';
+import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue';
 </script>
 <template>
 
@@ -17,7 +18,7 @@ import bloggridsection from './bloggridsection.vue';
     </div>
     <bloggridsection />
     <div class="boxmargin" style="width: 100%; height:10vh; "></div>
-    <mainfooter />
+    <secondfooter />
 </template>
 
 

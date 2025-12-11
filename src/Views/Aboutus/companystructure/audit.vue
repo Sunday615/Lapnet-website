@@ -25,7 +25,7 @@
         </div>
         <div class="org-header-right">
           <div class="org-logo-circle">
-            <img src="/logolapnet/logolapnet.PNG" alt="LAPNet logo" />
+          <img src="/logolapnet/fullcircle.png" alt="LAPNet logo" />
           </div>
           <div class="org-header-en">
             LAO NATIONAL<br />
@@ -79,7 +79,7 @@
     </div>
   </div>
 
-  <mainfooter />
+  <secondfooter />
 </template>
 
 <script setup>
@@ -88,6 +88,7 @@ import { gsap } from 'gsap'
 import main_navbar from '../../../components/miannavbar/main_navbar.vue'
 import mainfooter from '../../../components/footer/mainfooter/mainfooter.vue'
 import cpn_navbar from './navbarcompany/cpn_navbar.vue'
+import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue'
 
 const root = ref(null)
 

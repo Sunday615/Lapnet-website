@@ -40,6 +40,9 @@ const logos = [
   { src: "/logos/logo16.png", alt: "Squarespace", left: 360 },
   { src: "/logos/logo17.png", alt: "TaxJar", left: 480 },
   { src: "/logos/logo18.png", alt: "Netsuite", left: 600 },
+
+   { src: "/logos/logo19.png", alt: "TaxJar", left: 40 },
+  { src: "/logos/logo20.png", alt: "Netsuite", left: 140 },
 ];
 
 onMounted(() => {

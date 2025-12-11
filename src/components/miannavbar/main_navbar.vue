@@ -48,7 +48,7 @@ const menuItems = [
         to: '/products_service/mobile-transfer'
       },
       {
-        label: 'ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ QR',
+        label: 'ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ LAPNet',
         to: '/products_service/qr-payment'
       },
       {

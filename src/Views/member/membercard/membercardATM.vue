@@ -80,6 +80,15 @@ const memberLogos = [
     src: "/logoallmember/circle_scale/PUB.png",
     alt: "Client Z",
   },
+
+   {
+    src: "/logoallmember/circle_scale/PSVB.png",
+    alt: "Client Z",
+  },
+  {
+    src: "/logoallmember/circle_scale/lcnb.png",
+    alt: "Client Z",
+  },
 ];
 
 const itemsPerPage = 5;
@@ -324,6 +333,40 @@ const members = ref([
     layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
     filters: ['atm_inqury', 'atm-transfer', 'atm-cash-withdraw'],
   },
+
+
+  {
+    bankCode: 'PB',
+    image: "/logoallmember/circle_scale/PSVB.png",
+    title: "ທະນາຄານ ພົງສະຫວັນ ຈຳກັດ",
+    subtitle: "Phongsavanh Bank (PSV)",
+    link1: "https://web.facebook.com/phongsavanhbankltd/",
+    link2: "https://www.phongsavanhbank.com/",
+    layer1: "linear-gradient(#04ca63, #0b9444) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
+    layer2: "linear-gradient(321deg, transparent 0%, #b88a44 100%)",
+    layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
+    layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
+    layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
+    filters: [],
+  },
+
+  {
+    bankCode: 'LCNB',
+    image: "/logoallmember/circle_scale/lcnb.png",
+    title: "ທະນາຄານ ລາວຈີນ ຈຳກັດ",
+    subtitle: "Lao China Bank (LCNB)",
+    link1: "https://web.facebook.com/laochinabank",
+    link2: "https://lcnb.la/lcnbhome-la.php",
+    layer1: "linear-gradient(#fcd25d, #f8ac1c) 50% 50%/calc(100% - 15px) calc(100% - 15px) no-repeat",
+    layer2: "linear-gradient(321deg, transparent 0%, #b88a44 100%)",
+    layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
+    layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
+    layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
+    filters: [],
+  },
+
+
+  
 ]);
 
 // --- Filtered list (search -> filters -> pagination) ---

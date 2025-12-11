@@ -223,7 +223,7 @@ import { gsap } from "gsap";
 import { getPostById, getLatestPosts } from "../../../data/blogDetailsDummy.js";
 
 import main_navbar from "../../../components/miannavbar/main_navbar.vue";
-import mainfooter from "../../../components/footer/mainfooter/mainfooter.vue";
+import mainfooter from "../../../components/footer/mainfooter/secondfooter.vue";
 
 export default {
   name: "BlogDetail",

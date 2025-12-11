@@ -86,7 +86,7 @@
 
           <div class="blog-card-content">
             <div class="blog-meta-top">
-              <span class="chip">{{ post.category }}</span>
+              <span class="chip"> <i class="fa-solid fa-tags"></i>{{ post.category }}</span>
               <span class="date">
                 {{ post.date }} · {{ post.readTime }} 
               </span>
@@ -750,6 +750,7 @@ export default {
   grid-template-columns: minmax(0, 2.2fr) repeat(2, minmax(0, 1fr));
   gap: 16px;
   align-items: flex-end;
+
 }
 
 .control {
@@ -787,7 +788,7 @@ export default {
   border: none;
   outline: none;
   background: transparent;
-  padding: 7px 4px 7px 0;
+  padding: 13px 4px 7px 6px;
   font-size: 0.9rem;
   width: 100%;
   color: #020617;
@@ -812,7 +813,7 @@ export default {
   border: none;
   outline: none;
   background: transparent;
-  padding: 7px 32px 7px 12px;
+  padding: 16px 32px 7px 20px;
   font-size: 0.9rem;
   color: #020617;
   appearance: none;
@@ -944,21 +945,25 @@ export default {
   gap: 10px;
   font-size: 0.82rem;
 }
-
+.chip i {
+  margin-right: 3px;
+  font-size: 19px;
+  color: #0e00aa;
+}
 .chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 4px 10px;
-  border-radius: 999px;
+  border-radius: 10px;
   font-size: 0.75rem;
   letter-spacing: 0.08em;
+  border: 1px solid rgba(0, 0, 0, 0.239);
   text-transform: uppercase;
-  background: linear-gradient(
-    95deg,
-    rgba(0, 3, 41, 1) 0%,
-    rgba(0, 51, 171, 1) 46%
-  );
-  color: #e5ecff;
+
+  color: #000;
   font-weight: 600;
-  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.25);
+  
 }
 
 .date {

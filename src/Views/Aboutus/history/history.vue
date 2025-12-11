@@ -4,7 +4,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import main_navbar from "../../../components/miannavbar/main_navbar.vue";
 import mainfooter from "../../../components/footer/mainfooter/mainfooter.vue";
-
+import secondfooter from "../../../components/footer/mainfooter/secondfooter.vue";
 import piechart from "../piechart/piechart.vue";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -259,7 +259,7 @@ onBeforeUnmount(() => {
     <piechart />
   </div>
   <div class="boxmargin" style="width: 100%;height:15vh"></div>
-  <mainfooter />
+  <secondfooter />
 </template>
 
 <style scoped>

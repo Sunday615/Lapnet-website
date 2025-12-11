@@ -85,7 +85,7 @@
                             <RouterLink to="/products_service/mobile-transfer">ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື</RouterLink>
                         </li>
                         <li>
-                            <RouterLink to="/products_service/qr-payment">ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ QR</RouterLink>
+                            <RouterLink to="/products_service/qr-payment">ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ LAPNet</RouterLink>
                         </li>
                         <li>
                             <RouterLink to="/products_service/crossborder">ຊຳລະເງິນຂ້າມແດນຜ່ານ QR</RouterLink>

@@ -34,18 +34,27 @@ const memberLogos = [
       src: "/logoallmember/circle_scale/APBB.PNG",
       alt: "Partner B",
    },
+     {
+      src: "/logoallmember/circle_scale/lvb.PNG",
+      alt: "Client Z",
+   },
    {
       src: "/logoallmember/circle_scale/JDB.png",
       alt: "Client X",
    },
    {
+      src: "/logoallmember/circle_scale/STB.png",
+      alt: "Client Z",
+   },
+   {
+      src: "/logoallmember/circle_scale/BIC.png",
+      alt: "Client Z",
+   },
+   {
       src: "/logoallmember/circle_scale/Maruhan.png",
       alt: "Client Y",
    },
-   {
-      src: "/logoallmember/circle_scale/lvb.PNG",
-      alt: "Client Z",
-   },
+ 
    {
       src: "/logoallmember/circle_scale/ICBC.png",
       alt: "Client Z",
@@ -66,18 +75,12 @@ const memberLogos = [
       src: "/logoallmember/circle_scale/ACLB.png",
       alt: "Client Z",
    },
-   {
-      src: "/logoallmember/circle_scale/BIC.png",
-      alt: "Client Z",
-   },
+   
    {
       src: "/logoallmember/circle_scale/SACOM.PNG",
       alt: "Client Z",
    },
-   {
-      src: "/logoallmember/circle_scale/STB.png",
-      alt: "Client Z",
-   },
+   
    {
       src: "/logoallmember/circle_scale/Kasikorn.png",
       alt: "Client Z",
@@ -92,6 +95,14 @@ const memberLogos = [
    },
    {
       src: "/logoallmember/circle_scale/mb.png",
+      alt: "Client Z",
+   },
+     {
+      src: "/logoallmember/circle_scale/mmoney.png",
+      alt: "Client Z",
+   },
+   {
+      src: "/logoallmember/circle_scale/umoney.png",
       alt: "Client Z",
    },
    // ...continue until you have 16 logos, all with their own paths
@@ -123,11 +134,9 @@ const memberLogos = [
          <div class="warning">
             <p><i class="fa-solid fa-circle"></i>ການໂອນເງິນເທີງມືຖືໂດຍນຳໃຊ້ຮູບແບບການໂອນ ບັນຊີຫາບັນຊີ ຫຼື ເອີ້ນວ່າ
                Account Fund Transfer
-               ແມ່ນມີສະມາຊິກທັງໝົດ 18 ທະນາຄານ ດັ່ງນີ້:</p>
+               ແມ່ນມີສະມາຊິກທັງໝົດ 20 ທະນາຄານ ດັ່ງນີ້:</p>
          </div>
-         <div class="techbtn">
-            <tagproduct label="ຜະລິດຕະພັນ ແລະ ການບໍລິການ" />
-         </div>
+         
       </div>
       <div class="logofloatings">
          <logofloating />

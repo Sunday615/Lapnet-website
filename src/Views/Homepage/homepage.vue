@@ -17,6 +17,7 @@ import allmemberscrolling from '../../components/swiper/memberscrolling/allmembe
 import bloghomepage from '../../components/blog/hompage/bloghomepage.vue';
 import mainfooter from '../../components/footer/mainfooter/mainfooter.vue';
 import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
+import visionherosectiom from './visionherosectiom.vue';
 
 
 
@@ -101,43 +102,8 @@ const openSidebarFromNavbar = () => {
         </div>
     </div>
     <div class="visioncontainer">
-        <div class="contentvision">
-            <div class="itemvisionimg">
-                <img src="/homepage/newmission-2.png" alt="">
-            </div>
-            <div class="itemvision-title">
-                <h1>
-                    ວິໄສທັດຂອງພວກເຮົາ
-                </h1>
-                <div class="visioncontentbox1">
-                    <div class="number">
-                        <h2>01</h2>
-                    </div>
-                    <div class="description-vision">
-                        <p>ພັດທະນາລະບົບການຊໍາລະທຸລະກຳຍ່ອຍໃຫ້ເປັນສູນກາງການຊໍາລະຂອງບັນດາຜູ້ໃຫ້ບໍລິການ
-                            ຊໍາລະ ທັງພາຍໃນ ແລະ ສາກົນ, ແນໃສ່ໃຫ້ປະຊາຊົນລາງໄດ້ໃຊ້ບໍລິການຊໍາລະທີ່ສະດວກວ່ອງໄວ,
-                            ທັນສະໄໝ, ປອດໄພ, ຕົ້ນທືນຕໍາ ແລະ ເພື່ອໃຫ້ບໍລິສັດການເປັນໂຄງຮ່າງພື້ນຖານໃຫ້ແກ່ການ
-                            ຊໍາລະໃນ ສປປ ລາວ.</p>
-                    </div>
-                </div>
-                <div class="visioncontentbox2">
-                    <div class="number">
-                        <h2>02</h2>
-                    </div>
-                    <div class="description-vision">
-                        <p>ພັດທະນາລະບົບການຊໍາລະໃຫ້ມີຄວາມຫຼາກຫຼາຍ, ທັນສະໄໝ, ຕອບຮັບໄດ້ທຸກຊ່ອງທາງ
-                            ການຊໍາລະທີ່ເກີດຂື້ນ, ເຕົ້າໂຮມເອົາບັນດາທະນາຄານທຸລະກິດ, ສະຖາບັນການເງິນ ແລະ ບໍລິສັດ
-                            Fintech ທີ່ເປັນຜູ້ໃຫ້ບໍລິການຊໍາລະ ໃຫ້ເຂົ້າມາເປັນສະມາຊີກຂອງບໍລິສັດ ເພື່ອພ້ອມກັນໃຫ້
-                            ບໍລິການລະບົບການຊໍາລະແກ່ສັງຄົມ, ຫັນເອົາການເຊື່ອມຕໍ່ສາກົນທີ່ມີລັກສະນະກະແຈກກະຈາຍ
-                            ລວມສູນເຂົ້າມາເຊື່ອມຕໍ່ເປັນຮູບແບບລະບົບປະຕູດຽວເພື່ອຫຼຸດຜ່ອນຕົ້ນທືນລວມຂອງທົ່ວ
-                            ລະບົບ, ເສີມຂະຫຍາຍຄວາມຮູ້-ເຂົ້າໃຈໃຫ້ແກ່ມວນຊົນໄດ້ຮັບຮູ້ເຖິງຄວາມສຳຄັນ ແລະ ປະໂຫຍກ
-                            ຂອງການນຳໃຊ້ລະບົບການຊໍາລະເອເລັກໂຕຣນິກຢ່າງຖ່ອງແທ້ ເພື່ອເຮັດໃຫ້ມວນຊົນໄດ້ນຳໃຊ້ລະ
-                            ບົບການຊໍາລະຢ່າງຖືກຕ້ອງ ແລະ ປອດໄພ ເປັນການເສີມສ້າງຄວາມໝັ້ນໃຈໃຫ້ແກ່ມວນຊົນ.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+       
+        <visionherosectiom/>
     </div>
 
     <div class="videocrossborder">
@@ -145,7 +111,7 @@ const openSidebarFromNavbar = () => {
             <div class="crossborderhomepage">
                 <div class="titlecrossborder">
                     <div class="titlecrossborderproduct">
-                        <h1>ການຊຳລະເງິນຂ້າມແດນ<br>ໃນຮູບ QR CODE <br>ລະຫວ່າງປະເທດ</h1>
+                        <h1>ການຊຳລະຂ້າມແດນ<br>ໃນຮູບ QR CODE <br>ລະຫວ່າງປະເທດ</h1>
                     </div>
                     <div class="countrycrossborder">
                         <techbox label="Cambodia" sub-label="Bakong" country-code="kh" />
@@ -212,6 +178,10 @@ const openSidebarFromNavbar = () => {
 
 
 <style scoped>
+    .visioncontainer{
+        width: 100%;
+        height: auto;
+    }
 .blogcontainer {
     width: 100%;
     height: 100vh;
@@ -352,103 +322,7 @@ const openSidebarFromNavbar = () => {
     color: #fff;
 }
 
-.description-vision p {
-    font-size: 1rem;
-}
 
-.description-vision {
-    width: 83%;
-    height: 100%;
-
-}
-
-.number h2 {
-    text-align: center;
-    font-weight: 700;
-    padding: 25px 0px;
-    font-size: 2rem;
-    color: #fff;
-    background: #000080;
-    background: linear-gradient(0deg, rgba(0, 0, 128, 1) 0%, rgba(0, 15, 219, 1) 100%);
-}
-
-.number {
-    width: 13%;
-    height: 100%;
-
-}
-
-.visioncontentbox2 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 40%;
-
-}
-
-.visioncontentbox1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 30%;
-
-
-}
-
-.itemvision-title h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    color: #0D02D4;
-    background-image: linear-gradient(45deg, #372cff, #00beed 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-
-}
-
-.itemvision-title {
-    width: 60%;
-    height: 85%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-
-
-}
-
-.itemvisionimg img {
-    width: 90%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.itemvisionimg {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-}
-
-.contentvision {
-    height: 90%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-
-
-}
-
-.visioncontainer {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    height: 90vh;
-
-}
 
 .buttonhomepage {
     width: 100%;

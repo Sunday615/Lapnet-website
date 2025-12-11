@@ -15,9 +15,7 @@
           </li>
         </ul>
 
-        <button class="primary-btn">
-          {{ primaryButtonLabel }}
-        </button>
+  
       </section>
 
       <!-- RIGHT PANEL -->

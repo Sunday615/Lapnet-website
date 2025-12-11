@@ -53,7 +53,7 @@
       </div>
     </div>
   </section>
-  <mainfooter/>
+  <secondfooter/>
 </template>
 
 <script setup>
@@ -61,6 +61,7 @@ import { onMounted, ref } from "vue";
 import gsap from "gsap";
 import main_navbar from "../../../components/miannavbar/main_navbar.vue";
 import mainfooter from "../../../components/footer/mainfooter/mainfooter.vue";
+import secondfooter from "../../../components/footer/mainfooter/secondfooter.vue";
 const inner = ref(null);
 const sectionOne = ref(null);
 const sectionTwo = ref(null);

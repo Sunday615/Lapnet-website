@@ -20,9 +20,7 @@
           </li>
         </ul>
 
-        <button type="button" class="cta-btn">
-          ສະມາຊິກຂອງ LAPNet
-        </button>
+       
       </div>
 
       <!-- RIGHT: Logo grid -->

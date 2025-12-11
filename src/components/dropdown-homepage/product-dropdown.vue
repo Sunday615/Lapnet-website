@@ -41,7 +41,7 @@
 
         <div class="dropdown-item">
           <router-link to="/products_service/qr-payment">
-            <span>ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ QR</span>
+            <span>ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ LAPNet</span>
           </router-link>
 
 

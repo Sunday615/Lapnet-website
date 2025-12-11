@@ -14,13 +14,14 @@
                 </div>
                 <div class="item topmenubar">
                     <div class="boxtopmenu social">
-                        <a href="https://www.facebook.com/laonationalpaymentnetwork/" target="_blank">  <i class="fa-brands fa-facebook-f"></i></a>
-                      <a href="https://www.lapnet.com.la" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                        
                         
                     </div>
                     <div class="boxtopmenu register">
-                        <i class="fa-solid fa-user"></i>
-                        <p>Register</p>
+                     <a href="https://www.facebook.com/laonationalpaymentnetwork/" target="_blank">  <i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="https://www.lapnet.com.la" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                      <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i> </a>
+                        
                     </div>
                     <router-link to="/login">
                     <div class="boxtopmenu login">
@@ -64,17 +65,15 @@
 
 }
 
-.register p {
-    font-size: 1.2rem;
-}
+
 
 .register i {
-    padding-right: 25px;
+    padding-right: 40px;
     font-size: 1.5rem;
 }
 
 .register {
-
+   
     padding: 1rem;
     display: flex;
     justify-content: center;

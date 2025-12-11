@@ -1,7 +1,7 @@
 <script setup>
 import main_navbar from '../../components/miannavbar/main_navbar.vue';
 import mainfooter from '../../components/footer/mainfooter/mainfooter.vue';
-
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
 const openMap = () => {
     const mapUrl = 'https://maps.app.goo.gl/TzSSbm5NQWCWNsrx7'
     window.open(mapUrl, '_blank')
@@ -119,7 +119,7 @@ const openMap = () => {
             referrerpolicy="no-referrer-when-downgrade" />
     </div>
 
-    <mainfooter/>
+    <secondfooter/>
 </template>
 
 <style scoped>

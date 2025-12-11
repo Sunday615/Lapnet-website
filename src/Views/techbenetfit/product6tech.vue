@@ -131,7 +131,7 @@
                     ນັກທ່ອງທ່ຽວກຳປູເຈຍໃຊ້ Bakong Mobile App ຫຼື ACLEDA Mobile App ສະແກນ LAO QR
                     ທີ່ຮ້ານຄ້າໃນລາວ.
                   </p>
-                  <div class="flexicon">
+                  <div class="flexicon" >
                     <div class="feature-icon">
                       <span>
                         <img
@@ -187,6 +187,7 @@
                 <div
                   class="card feature-card feature-card--exchange"
                   @click="openOverlay('thScanLaos')"
+                  style="border: 1px solid red;"
                 >
                   <h3>ວິທີການຊຳລະ ໄທ🇹🇭 ສະແກນຊຳລະ ລາວ🇱🇦</h3>
                   <p>
@@ -202,6 +203,15 @@
                       />
                     </span>
                   </div>
+                  <div class="feature-icon">
+                      <span>
+                        <img
+                          style="border-radius: 5px; width: 75px; height: 75px"
+                          src="/logoallmember/retangle_scale/ACL.jpg"
+                          alt=""
+                        />
+                      </span>
+                    </div>
                 </div>
               </div>
             </div>
@@ -384,7 +394,7 @@
             <div class="feature-icon">
               <span>
                 <img
-                  style="border-radius: 5px; width: 80px; height: 80px"
+                  style="border-radius: 5px; width: 80px; height: 80px ; "
                   src="/Logomember/Bakong1.png"
                   alt=""
                 />
@@ -702,6 +712,7 @@ onBeforeUnmount(() => {
   height: 80px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
 }
 
 .logolapnet {
@@ -863,6 +874,7 @@ onBeforeUnmount(() => {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+
   will-change: transform, box-shadow;
 }
 
@@ -924,6 +936,7 @@ onBeforeUnmount(() => {
   position: relative;
   z-index: 1;
   border-radius: 14px;
+  
   background: rgba(15, 23, 42, 0.92);
 }
 
@@ -1021,6 +1034,7 @@ onBeforeUnmount(() => {
 }
 
 .overlay-title {
+  
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -1057,8 +1071,10 @@ onBeforeUnmount(() => {
 }
 
 .overlay-flexicon {
+
   margin-top: 16px;
   display: flex;
+
   gap: 18px;
 }
 

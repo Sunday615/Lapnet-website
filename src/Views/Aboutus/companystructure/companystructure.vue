@@ -171,13 +171,14 @@
   </div>
 
   <div class="boxmargin" style="width: 100%; height:15vh; background-color: #f5f7fb;"></div>
-  <mainfooter />
+  <secondfooter />
 </template>
 
 <script setup>
 import main_navbar from '../../../components/miannavbar/main_navbar.vue';
 import mainfooter from '../../../components/footer/mainfooter/mainfooter.vue';
 import cpn_navbar from './navbarcompany/cpn_navbar.vue';
+import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue';
 import { onMounted, onBeforeUnmount } from 'vue';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

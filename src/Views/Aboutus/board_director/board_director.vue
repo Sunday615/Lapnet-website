@@ -115,7 +115,7 @@
   </div>
 
   <div class="boxmargin" style="width: 100%; height: 15vh"></div>
-  <mainfooter />
+  <secondfooter />
 </template>
 
 <script setup>
@@ -124,6 +124,7 @@ import { gsap } from "gsap";
 import mainfooter from "../../../components/footer/mainfooter/mainfooter.vue";
 import main_navbar from "../../../components/miannavbar/main_navbar.vue";
 import bod_navbar from "../companystructure/navbarcompany/bod_navbar.vue";
+import secondfooter from "../../../components/footer/mainfooter/secondfooter.vue";
 
 // 4 columns layout (desktop)
 // Row 1 :            President

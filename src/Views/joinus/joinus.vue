@@ -17,9 +17,11 @@
 
 
         </p>
+        <router-link to="/contactus">
         <button class="hero-button">
           ຕິດຕໍ່ພວກເຮົາ
         </button>
+        </router-link>
       </div>
 
       <div class="hero-image-wrapper">
@@ -213,7 +215,7 @@
 
     <div class="boxmargin" style="width: 100%; height:15vh"></div>
   </div>
-  <mainfooter/>
+  <secondfooter/>
 </template>
 
 <script setup>
@@ -225,7 +227,7 @@ import 'swiper/css/pagination';
 import gsap from 'gsap';
 import main_navbar from '../../components/miannavbar/main_navbar.vue';
 import mainfooter from '../../components/footer/mainfooter/mainfooter.vue';
-
+import secondfooter from '../../components/footer/mainfooter/secondfooter.vue';
 const swiperModules = [Autoplay, Pagination];
 
 // SECTION REFS FOR GSAP

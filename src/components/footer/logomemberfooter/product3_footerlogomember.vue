@@ -20,9 +20,7 @@
           </li>
         </ul>
 
-        <button type="button" class="cta-btn">
-          ຜະລິດຕະພັນ ແລະ ການບໍລິການ
-        </button>
+     
       </div>
 
       <!-- RIGHT: Logo grid -->
