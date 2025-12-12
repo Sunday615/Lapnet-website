@@ -62,10 +62,7 @@
       768: { slidesPerView: 2 },
       1024: { slidesPerView: 3 }
     }"
-    :pagination="{
-      clickable: true,
-      type: 'fraction'
-    }"
+  
   >
     <SwiperSlide
       v-for="(item, index) in activities"

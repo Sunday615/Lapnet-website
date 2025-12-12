@@ -81,7 +81,7 @@
             <li class="sidebar-subitem" @click.stop @click="goTo('/aboutus/role')">ພາລະບົດບາດ</li>
             <li class="sidebar-subitem" @click.stop @click="goTo('/aboutus/history')">ຄວາມເປັນມາ</li>
             <li class="sidebar-subitem" @click.stop @click="goTo('/aboutus/board_director')">ສະພາຜູ້ບໍລິຫານ</li>
-            <li class="sidebar-subitem" @click.stop @click="goTo('/aboutus/companystructure')">ໂຄງຮ່າງການຈັດຕັ້ງ</li>
+            <li class="sidebar-subitem" @click.stop @click="goTo('/aboutus/companystructureimage')">ໂຄງຮ່າງການຈັດຕັ້ງ</li>
           </ul>
         </li>
         <router-link to="/contactus">
