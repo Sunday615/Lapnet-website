@@ -9,11 +9,11 @@ import logofootermembercardmobilebanking from '../../../components/footer/logome
 import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue';
 
 onMounted(() => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  });
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
 });
 
 
@@ -31,17 +31,23 @@ const memberLogos = [
         alt: "Partner B",
     },
     {
-        src: "/logoallmember/circle_scale/JDB.png",
-        alt: "Client X",
-    },
-    {
-        src: "/logoallmember/circle_scale/Maruhan.png",
-        alt: "Client Y",
-    },
-    {
         src: "/logoallmember/circle_scale/lvb.PNG",
         alt: "Client Z",
     },
+    {
+        src: "/logoallmember/circle_scale/JDB.png",
+        alt: "Client X",
+    },
+
+    {
+        src: "/logoallmember/circle_scale/STB.png",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/BIC.png",
+        alt: "Client Z",
+    },
+
     {
         src: "/logoallmember/circle_scale/ICBC.png",
         alt: "Client Z",
@@ -63,17 +69,15 @@ const memberLogos = [
         alt: "Client Z",
     },
     {
-        src: "/logoallmember/circle_scale/BIC.png",
-        alt: "Client Z",
+        src: "/logoallmember/circle_scale/Maruhan.png",
+        alt: "Client Y",
     },
+
     {
         src: "/logoallmember/circle_scale/SACOM.PNG",
         alt: "Client Z",
     },
-    {
-        src: "/logoallmember/circle_scale/STB.png",
-        alt: "Client Z",
-    },
+
     {
         src: "/logoallmember/circle_scale/Kasikorn.png",
         alt: "Client Z",
@@ -530,34 +534,19 @@ watch(filteredMembers, async () => {
 </script>
 
 <template>
-    <main_navbar
-        title="ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື"
-        :breadcrumb="[
-            'ໜ້າຫຼັກ',
-            'ສະມາຊິກ',
-            'ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື'
-        ]"
-        background-image="/member/membercard/membercrd-2.png"
-    />
+    <main_navbar title="ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື" :breadcrumb="[
+        'ໜ້າຫຼັກ',
+        'ສະມາຊິກ',
+        'ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື'
+    ]" background-image="/member/membercard/membercrd-2.png" />
     <div class="boxmargin" style="width: 100%; height:20vh"></div>
 
     <div class="membercardcontainer">
         <div class="leftsection">
             <div class="cardsgrid" ref="cardsGridEl">
-                <membercard
-                    v-for="(m, idx) in paginatedMembers"
-                    :key="`${m.title}-${idx}`"
-                    :image="m.image"
-                    :title="m.title"
-                    :subtitle="m.subtitle"
-                    :link1="m.link1"
-                    :link2="m.link2"
-                    :layer1="m.layer1"
-                    :layer2="m.layer2"
-                    :layer3="m.layer3"
-                    :layer4="m.layer4"
-                    :layer5="m.layer5"
-                />
+                <membercard v-for="(m, idx) in paginatedMembers" :key="`${m.title}-${idx}`" :image="m.image"
+                    :title="m.title" :subtitle="m.subtitle" :link1="m.link1" :link2="m.link2" :layer1="m.layer1"
+                    :layer2="m.layer2" :layer3="m.layer3" :layer4="m.layer4" :layer5="m.layer5" />
             </div>
         </div>
 
@@ -576,12 +565,8 @@ watch(filteredMembers, async () => {
                 <!-- Search box -->
                 <div class="searchBox">
                     <span class="searchIcon">🔍</span>
-                    <input
-                        v-model="searchQuery"
-                        type="text"
-                        class="searchInput"
-                        placeholder="ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື..."
-                    />
+                    <input v-model="searchQuery" type="text" class="searchInput"
+                        placeholder="ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື..." />
                 </div>
 
                 <div class="filterDivider"></div>
@@ -596,25 +581,12 @@ watch(filteredMembers, async () => {
                     </div>
 
                     <div class="filterChecks">
-                        <label
-                            v-for="opt in filterOptions"
-                            :key="opt.value"
-                            class="filterCheck"
-                        >
+                        <label v-for="opt in filterOptions" :key="opt.value" class="filterCheck">
                             <!-- Select all -->
-                            <input
-                                v-if="opt.value === 'all'"
-                                type="checkbox"
-                                :checked="isAllChecked"
-                                @change="isAllChecked = $event.target.checked"
-                            />
+                            <input v-if="opt.value === 'all'" type="checkbox" :checked="isAllChecked"
+                                @change="isAllChecked = $event.target.checked" />
                             <!-- Normal filters -->
-                            <input
-                                v-else
-                                type="checkbox"
-                                :value="opt.value"
-                                v-model="selectedFilters"
-                            />
+                            <input v-else type="checkbox" :value="opt.value" v-model="selectedFilters" />
 
                             <span class="checkFake">
                                 <span class="checkTick">✓</span>
@@ -639,40 +611,20 @@ watch(filteredMembers, async () => {
 
     <div class="paginationcontainer">
         <div class="pagerWrap" aria-label="Pagination">
-            <button
-                class="pagerBtn"
-                :disabled="currentPage === 1"
-                @click="prevPage"
-                aria-label="Previous page"
-            >
+            <button class="pagerBtn" :disabled="currentPage === 1" @click="prevPage" aria-label="Previous page">
                 <span class="chev">‹</span>
                 <span class="txt">Prev</span>
             </button>
 
-            <div
-                class="pagerPills"
-                role="navigation"
-                aria-label="Page numbers"
-            >
-                <button
-                    v-for="p in totalPages"
-                    :key="p"
-                    class="pagePill"
-                    :class="{ active: p === currentPage }"
-                    @click="goToPage(p)"
-                    :aria-current="p === currentPage ? 'page' : undefined"
-                    :aria-label="`Go to page ${p}`"
-                >
+            <div class="pagerPills" role="navigation" aria-label="Page numbers">
+                <button v-for="p in totalPages" :key="p" class="pagePill" :class="{ active: p === currentPage }"
+                    @click="goToPage(p)" :aria-current="p === currentPage ? 'page' : undefined"
+                    :aria-label="`Go to page ${p}`">
                     {{ p }}
                 </button>
             </div>
 
-            <button
-                class="pagerBtn"
-                :disabled="currentPage === totalPages"
-                @click="nextPage"
-                aria-label="Next page"
-            >
+            <button class="pagerBtn" :disabled="currentPage === totalPages" @click="nextPage" aria-label="Next page">
                 <span class="txt">Next</span>
                 <span class="chev">›</span>
             </button>
@@ -805,13 +757,11 @@ watch(filteredMembers, async () => {
     height: 1px;
     width: 100%;
     border-radius: 999px;
-    background: linear-gradient(
-        90deg,
-        rgba(46, 94, 255, 0) 0%,
-        rgba(46, 94, 255, 0.7) 35%,
-        rgba(46, 94, 255, 0.7) 65%,
-        rgba(46, 94, 255, 0) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(46, 94, 255, 0) 0%,
+            rgba(46, 94, 255, 0.7) 35%,
+            rgba(46, 94, 255, 0.7) 65%,
+            rgba(46, 94, 255, 0) 100%);
 }
 
 /* Checkbox group */
@@ -890,7 +840,7 @@ watch(filteredMembers, async () => {
 }
 
 /* checked state */
-.filterCheck input:checked + .checkFake {
+.filterCheck input:checked+.checkFake {
     background: linear-gradient(135deg, #1a57ff, #47b3ff);
     border-color: #ffffff;
     box-shadow:
@@ -899,7 +849,7 @@ watch(filteredMembers, async () => {
     transform: translateY(-1px);
 }
 
-.filterCheck input:checked + .checkFake .checkTick {
+.filterCheck input:checked+.checkFake .checkTick {
     opacity: 1;
     transform: scale(1);
     color: #ffffff;
@@ -955,12 +905,10 @@ watch(filteredMembers, async () => {
     border-radius: 999px;
 
     background: #00123d;
-    background: linear-gradient(
-        95deg,
-        rgba(0, 18, 61, 1) 0%,
-        rgba(0, 51, 171, 1) 35%,
-        rgba(6, 0, 120, 1) 100%
-    );
+    background: linear-gradient(95deg,
+            rgba(0, 18, 61, 1) 0%,
+            rgba(0, 51, 171, 1) 35%,
+            rgba(6, 0, 120, 1) 100%);
     border: 1px solid rgba(152, 189, 255, 0.8);
     box-shadow:
         0 8px 20px rgba(0, 0, 0, 0.45),

@@ -245,12 +245,12 @@ export default {
       // Sidebar search + tag filters
       searchQuery: "",
       tagFilters: [
-        { id: "Meetings", label: "Meetings" },
-        { id: "Contract", label: "Contract" },
-        { id: "Notification", label: "Notification" },
+        { id: "Meeting", label: "Meeting" },
+        { id: "Contract Signing", label: "Contract Signing" },
+        { id: "Announcement", label: "Announcement" },
         { id: "Activity", label: "Activity" },
-        { id: "Grand opening", label: "Grand Opening" },
-        { id: "Events", label: "Events" }
+        { id: "Launch Event", label: "Launch Event" },
+        { id: "Event", label: "Event" }
       ],
       selectedTags: [],
 

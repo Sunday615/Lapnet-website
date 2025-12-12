@@ -28,18 +28,23 @@ const memberLogos = [
     src: "/logoallmember/circle_scale/APBB.PNG",
     alt: "Partner B",
   },
+   {
+    src: "/logoallmember/circle_scale/lvb.PNG",
+    alt: "Client Z",
+  },
   {
     src: "/logoallmember/circle_scale/JDB.png",
     alt: "Client X",
   },
-  {
-    src: "/logoallmember/circle_scale/Maruhan.png",
-    alt: "Client Y",
-  },
-  {
-    src: "/logoallmember/circle_scale/lvb.PNG",
+   {
+    src: "/logoallmember/circle_scale/STB.png",
     alt: "Client Z",
   },
+   {
+    src: "/logoallmember/circle_scale/BIC.png",
+    alt: "Client Z",
+  },
+ 
   {
     src: "/logoallmember/circle_scale/ICBC.png",
     alt: "Client Z",
@@ -60,18 +65,16 @@ const memberLogos = [
     src: "/logoallmember/circle_scale/ACLB.png",
     alt: "Client Z",
   },
-  {
-    src: "/logoallmember/circle_scale/BIC.png",
-    alt: "Client Z",
+   {
+    src: "/logoallmember/circle_scale/Maruhan.png",
+    alt: "Client Y",
   },
+ 
   {
     src: "/logoallmember/circle_scale/SACOM.PNG",
     alt: "Client Z",
   },
-  {
-    src: "/logoallmember/circle_scale/STB.png",
-    alt: "Client Z",
-  },
+
   {
     src: "/logoallmember/circle_scale/Kasikorn.png",
     alt: "Client Z",
@@ -336,7 +339,7 @@ const members = ref([
 
 
   {
-    bankCode: 'PB',
+    bankCode: 'PSV',
     image: "/logoallmember/circle_scale/PSVB.png",
     title: "ທະນາຄານ ພົງສະຫວັນ ຈຳກັດ",
     subtitle: "Phongsavanh Bank (PSV)",
@@ -347,7 +350,7 @@ const members = ref([
     layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
     layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
     layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-    filters: [],
+    filters: ['atm_inqury' , 'atm-cash-withdraw'],
   },
 
   {
@@ -362,7 +365,7 @@ const members = ref([
     layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
     layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
     layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-    filters: [],
+      filters: ['atm_inqury', 'atm-transfer', 'atm-cash-withdraw' ],
   },
 
 

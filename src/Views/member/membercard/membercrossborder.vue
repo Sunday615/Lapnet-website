@@ -10,74 +10,82 @@ import secondfooter from '../../../components/footer/mainfooter/secondfooter.vue
 
 
 onMounted(() => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  });
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
 });
 
 const memberLogos = [
-   {
-      src: "/logoallmember/circle_scale/BCEL.png",
-      alt: "Space AI",
-   },
-   {
-      src: "/logoallmember/circle_scale/LDB.PNG",
-      alt: "Partner A",
-   },
-   {
-      src: "/logoallmember/circle_scale/APBB.PNG",
-      alt: "Partner B",
-   },
-   {
-      src: "/logoallmember/circle_scale/JDB.png",
-      alt: "Client X",
-   },
-   {
-      src: "/logoallmember/circle_scale/Maruhan.png",
-      alt: "Client Y",
-   },
-   {
-      src: "/logoallmember/circle_scale/lvb.PNG",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/VTB.png",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/IB.png",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/ACLB.png",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/BIC.png",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/SACOM.PNG",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/STB.png",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/Kasikorn.png",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/PSVB.png",
-      alt: "Client Z",
-   },
-   {
-      src: "/logoallmember/circle_scale/mb.png",
-      alt: "Client Z",
-   },
+    {
+        src: "/logoallmember/circle_scale/BCEL.png",
+        alt: "Space AI",
+    },
+    {
+        src: "/logoallmember/circle_scale/LDB.PNG",
+        alt: "Partner A",
+    },
+    {
+        src: "/logoallmember/circle_scale/APBB.PNG",
+        alt: "Partner B",
+    },
+    {
+        src: "/logoallmember/circle_scale/lvb.PNG",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/JDB.png",
+        alt: "Client X",
+    },
+
+
+    {
+        src: "/logoallmember/circle_scale/STB.png",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/BIC.png",
+        alt: "Client Z",
+    },
+
+
+
+
+    {
+        src: "/logoallmember/circle_scale/VTB.png",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/IB.png",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/ACLB.png",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/Maruhan.png",
+        alt: "Client Y",
+    },
+
+    {
+        src: "/logoallmember/circle_scale/SACOM.PNG",
+        alt: "Client Z",
+    },
+
+    {
+        src: "/logoallmember/circle_scale/Kasikorn.png",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/PSVB.png",
+        alt: "Client Z",
+    },
+    {
+        src: "/logoallmember/circle_scale/mb.png",
+        alt: "Client Z",
+    },
 ];
 
 const itemsPerPage = 5;
@@ -89,59 +97,59 @@ const selectedFilters = ref([]);
 
 // filter options with flags
 const filterOptions = [
-  {
-    label: 'ເລືອກທັງໝົດ',
-    value: 'all',
-    flags: [],
-  },
-  {
-    label: 'ກຳປູເຈຍ ສະແກນຊຳລະ ລາວ ',
-    value: 'kh-la',        // Cambodia -> Laos
-    flags: [
-      { code: 'kh', alt: 'Cambodia flag' },
-      { code: 'la', alt: 'Laos flag' },
-    ],
-  },
-  {
-    label: 'ລາວ ສະແກນຊຳລະ ກຳປູເຈຍ ',
-    value: 'la-kh',        // Laos -> Cambodia
-    flags: [
-      { code: 'la', alt: 'Laos flag' },
-      { code: 'kh', alt: 'Cambodia flag' },
-    ],
-  },
-  {
-    label: 'ໄທ ສະແກນຊຳລະ ລາວ ',
-    value: 'th-la',        // Thailand -> Laos
-    flags: [
-      { code: 'th', alt: 'Thailand flag' },
-      { code: 'la', alt: 'Laos flag' },
-    ],
-  },
-  {
-    label: 'ລາວ ສະແກນຊຳລະ ໄທ ',
-    value: 'la-th',        // Laos -> Thailand
-    flags: [
-      { code: 'la', alt: 'Laos flag' },
-      { code: 'th', alt: 'Thailand flag' },
-    ],
-  },
-  {
-    label: 'ຫວຽດນາມ ສະແກນຊຳລະ ລາວ ',
-    value: 'vn-la',        // Vietnam -> Laos
-    flags: [
-      { code: 'vn', alt: 'Vietnam flag' },
-      { code: 'la', alt: 'Laos flag' },
-    ],
-  },
-  {
-    label: 'ຈີນ ສະແກນຊຳລະ ລາວ ',
-    value: 'cn-la',        // China -> Laos
-    flags: [
-      { code: 'cn', alt: 'China flag' },
-      { code: 'la', alt: 'Laos flag' },
-    ],
-  },
+    {
+        label: 'ເລືອກທັງໝົດ',
+        value: 'all',
+        flags: [],
+    },
+    {
+        label: 'ກຳປູເຈຍ ສະແກນຊຳລະ ລາວ ',
+        value: 'kh-la',        // Cambodia -> Laos
+        flags: [
+            { code: 'kh', alt: 'Cambodia flag' },
+            { code: 'la', alt: 'Laos flag' },
+        ],
+    },
+    {
+        label: 'ລາວ ສະແກນຊຳລະ ກຳປູເຈຍ ',
+        value: 'la-kh',        // Laos -> Cambodia
+        flags: [
+            { code: 'la', alt: 'Laos flag' },
+            { code: 'kh', alt: 'Cambodia flag' },
+        ],
+    },
+    {
+        label: 'ໄທ ສະແກນຊຳລະ ລາວ ',
+        value: 'th-la',        // Thailand -> Laos
+        flags: [
+            { code: 'th', alt: 'Thailand flag' },
+            { code: 'la', alt: 'Laos flag' },
+        ],
+    },
+    {
+        label: 'ລາວ ສະແກນຊຳລະ ໄທ ',
+        value: 'la-th',        // Laos -> Thailand
+        flags: [
+            { code: 'la', alt: 'Laos flag' },
+            { code: 'th', alt: 'Thailand flag' },
+        ],
+    },
+    {
+        label: 'ຫວຽດນາມ ສະແກນຊຳລະ ລາວ ',
+        value: 'vn-la',        // Vietnam -> Laos
+        flags: [
+            { code: 'vn', alt: 'Vietnam flag' },
+            { code: 'la', alt: 'Laos flag' },
+        ],
+    },
+    {
+        label: 'ຈີນ ສະແກນຊຳລະ ລາວ ',
+        value: 'cn-la',        // China -> Laos
+        flags: [
+            { code: 'cn', alt: 'China flag' },
+            { code: 'la', alt: 'Laos flag' },
+        ],
+    },
 ];
 
 // banks (add filters for cross–border directions each supports)
@@ -158,7 +166,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la', 'la-kh' ,'th-la' , 'la-th' , 'vn-la' ,'cn-la'],
+        filters: ['kh-la', 'la-kh', 'th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/circle_scale/LDB.PNG",
@@ -171,7 +179,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la' ,'th-la' ,'la-th' , 'vn-la' ,'cn-la'],
+        filters: ['kh-la', 'th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/circle_scale/APBB.PNG",
@@ -184,7 +192,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la' , 'la-kh' , 'th-la' ,'la-th' , 'vn-la' ,'cn-la'],
+        filters: ['kh-la', 'la-kh', 'th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/circle_scale/JDB.png",
@@ -197,7 +205,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la', 'th-la' ,'la-th' , 'vn-la' ,'cn-la'],
+        filters: ['kh-la', 'th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/circle_scale/Maruhan.png",
@@ -210,7 +218,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['th-la' , 'la-th' ,'vn-la' ,'cn-la'],
+        filters: ['th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/circle_scale/lvb.PNG",
@@ -223,7 +231,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la' ,'th-la' ,'la-th' ,'vn-la','cn-la'],
+        filters: ['kh-la', 'th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/retangle_scale/VTB.jpg",
@@ -236,7 +244,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['th-la','vn-la'],
+        filters: ['th-la', 'vn-la'],
     },
     {
         image: "/logoallmember/circle_scale/IB.png",
@@ -249,7 +257,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la', 'th-la' , 'vn-la'],
+        filters: ['kh-la', 'th-la', 'vn-la'],
     },
     {
         image: "/logoallmember/retangle_scale/ACL-bg.png",
@@ -262,7 +270,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la', 'la-kh' ,'th-la' ,'la-th' ,'vn-la','cn-la'],
+        filters: ['kh-la', 'la-kh', 'th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/retangle_scale/BICnew.jpeg",
@@ -275,7 +283,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la' ,'vn-la'],
+        filters: ['kh-la', 'vn-la'],
     },
     {
         image: "/logoallmember/retangle_scale/sacom.png",
@@ -288,7 +296,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la' ,'la-kh' ,'th-la' ,'la-th' ,'vn-la'],
+        filters: ['kh-la', 'la-kh', 'th-la', 'la-th', 'vn-la'],
     },
     {
         image: "/logoallmember/retangle_scale/STB.jpg",
@@ -301,7 +309,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la', 'la-kh' ,'th-la','la-th' ,'vn-la' ,'cn-la'],
+        filters: ['kh-la', 'la-kh', 'th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/circle_scale/Kasikorn.png",
@@ -314,7 +322,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['kh-la' ,'th-la'],
+        filters: ['kh-la', 'th-la'],
     },
     {
         image: "/logoallmember/circle_scale/PSVB.png",
@@ -327,7 +335,7 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['th-la' , 'la-th' , 'vn-la', 'cn-la'],
+        filters: ['th-la', 'la-th', 'vn-la', 'cn-la'],
     },
     {
         image: "/logoallmember/retangle_scale/MB.png",
@@ -340,33 +348,33 @@ const members = ref([
         layer3: "linear-gradient(26deg, transparent 0%, #faf398 100%)",
         layer4: "linear-gradient(172deg, transparent 0%, #e0aa4e 100%)",
         layer5: "linear-gradient(270deg, transparent 0%, #f9f295 100%)",
-        filters: ['la-kh' , 'vn-la','cn-la'],
+        filters: ['la-kh', 'vn-la', 'cn-la'],
     },
 ]);
 
 // --------- select-all helpers ----------
 const realFilterValues = computed(() =>
-  filterOptions
-    .filter(o => o.value !== 'all')
-    .map(o => o.value)
+    filterOptions
+        .filter(o => o.value !== 'all')
+        .map(o => o.value)
 );
 
 const isAllChecked = computed({
-  get() {
-    return (
-      realFilterValues.value.length > 0 &&
-      realFilterValues.value.every(v =>
-        selectedFilters.value.includes(v)
-      )
-    );
-  },
-  set(checked) {
-    if (checked) {
-      selectedFilters.value = [...realFilterValues.value];
-    } else {
-      selectedFilters.value = [];
-    }
-  },
+    get() {
+        return (
+            realFilterValues.value.length > 0 &&
+            realFilterValues.value.every(v =>
+                selectedFilters.value.includes(v)
+            )
+        );
+    },
+    set(checked) {
+        if (checked) {
+            selectedFilters.value = [...realFilterValues.value];
+        } else {
+            selectedFilters.value = [];
+        }
+    },
 });
 
 // --- Filtered list (search + flags -> pagination) ---
@@ -486,33 +494,18 @@ watch(filteredMembers, async () => {
 </script>
 
 <template>
-    <main_navbar
-        title="ສະມາຊິກລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ"
-        :breadcrumb="[
-            'ໜ້າຫຼັກ',
-            'ສະມາຊິກ',
-            'ສະມາຊິກລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ'
-        ]"
-        background-image="/member/membercard/membercrd-2.png"
-    />
+    <main_navbar title="ສະມາຊິກລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ" :breadcrumb="[
+        'ໜ້າຫຼັກ',
+        'ສະມາຊິກ',
+        'ສະມາຊິກລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ'
+    ]" background-image="/member/membercard/membercrd-2.png" />
     <div class="boxmargin" style="width: 100%; height:20vh"></div>
     <div class="membercardcontainer">
         <div class="leftsection">
             <div class="cardsgrid" ref="cardsGridEl">
-                <membercard
-                    v-for="(m, idx) in paginatedMembers"
-                    :key="`${m.title}-${idx}`"
-                    :image="m.image"
-                    :title="m.title"
-                    :subtitle="m.subtitle"
-                    :link1="m.link1"
-                    :link2="m.link2"
-                    :layer1="m.layer1"
-                    :layer2="m.layer2"
-                    :layer3="m.layer3"
-                    :layer4="m.layer4"
-                    :layer5="m.layer5"
-                />
+                <membercard v-for="(m, idx) in paginatedMembers" :key="`${m.title}-${idx}`" :image="m.image"
+                    :title="m.title" :subtitle="m.subtitle" :link1="m.link1" :link2="m.link2" :layer1="m.layer1"
+                    :layer2="m.layer2" :layer3="m.layer3" :layer4="m.layer4" :layer5="m.layer5" />
             </div>
         </div>
 
@@ -522,7 +515,7 @@ watch(filteredMembers, async () => {
                     <div>
                         <h2 class="filterTitle">ຄົ້ນຫາທະນາຄານສະມາຊິກ</h2>
                         <p class="filterSubtitle">
-                           ສະມາຊິກລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ
+                            ສະມາຊິກລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ
                         </p>
                     </div>
                     <span class="filterBadge">LAPNet</span>
@@ -531,12 +524,8 @@ watch(filteredMembers, async () => {
                 <!-- Search box -->
                 <div class="searchBox">
                     <span class="searchIcon">🔍</span>
-                    <input
-                        v-model="searchQuery"
-                        type="text"
-                        class="searchInput"
-                        placeholder="ຄົ້ນຫາທະນາຄານສະມາຊິກ..."
-                    />
+                    <input v-model="searchQuery" type="text" class="searchInput"
+                        placeholder="ຄົ້ນຫາທະນາຄານສະມາຊິກ..." />
                 </div>
 
                 <div class="filterDivider"></div>
@@ -549,25 +538,12 @@ watch(filteredMembers, async () => {
                     </div>
 
                     <div class="filterChecks">
-                        <label
-                            v-for="opt in filterOptions"
-                            :key="opt.value"
-                            class="filterCheck"
-                        >
+                        <label v-for="opt in filterOptions" :key="opt.value" class="filterCheck">
                             <!-- select all -->
-                            <input
-                                v-if="opt.value === 'all'"
-                                type="checkbox"
-                                :checked="isAllChecked"
-                                @change="isAllChecked = $event.target.checked"
-                            />
+                            <input v-if="opt.value === 'all'" type="checkbox" :checked="isAllChecked"
+                                @change="isAllChecked = $event.target.checked" />
                             <!-- normal filters -->
-                            <input
-                                v-else
-                                type="checkbox"
-                                :value="opt.value"
-                                v-model="selectedFilters"
-                            />
+                            <input v-else type="checkbox" :value="opt.value" v-model="selectedFilters" />
 
                             <span class="checkFake">
                                 <span class="checkTick">✓</span>
@@ -575,35 +551,21 @@ watch(filteredMembers, async () => {
 
                             <span class="checkLabel">
                                 <!-- flags + arrow (from -> to) -->
-                                <span
-                                    v-if="opt.flags && opt.flags.length === 2"
-                                    class="flagWrap"
-                                >
+                                <span v-if="opt.flags && opt.flags.length === 2" class="flagWrap">
                                     <!-- from -->
-                                    <img
-                                        class="flagIcon"
-                                        :src="`https://flagcdn.com/w20/${opt.flags[0].code}.png`"
+                                    <img class="flagIcon" :src="`https://flagcdn.com/w20/${opt.flags[0].code}.png`"
                                         :srcset="`https://flagcdn.com/w40/${opt.flags[0].code}.png 2x`"
-                                        :alt="opt.flags[0].alt"
-                                        loading="lazy"
-                                    />
+                                        :alt="opt.flags[0].alt" loading="lazy" />
                                     <!-- arrow -->
                                     <i class="fa-solid fa-arrow-right flagArrow"></i>
                                     <!-- to -->
-                                    <img
-                                        class="flagIcon"
-                                        :src="`https://flagcdn.com/w20/${opt.flags[1].code}.png`"
+                                    <img class="flagIcon" :src="`https://flagcdn.com/w20/${opt.flags[1].code}.png`"
                                         :srcset="`https://flagcdn.com/w40/${opt.flags[1].code}.png 2x`"
-                                        :alt="opt.flags[1].alt"
-                                        loading="lazy"
-                                    />
+                                        :alt="opt.flags[1].alt" loading="lazy" />
                                 </span>
 
                                 <!-- no flags (e.g. select all) -->
-                                <span
-                                    v-else
-                                    class="flagWrap"
-                                ></span>
+                                <span v-else class="flagWrap"></span>
 
                                 {{ opt.label }}
                             </span>
@@ -626,36 +588,20 @@ watch(filteredMembers, async () => {
 
     <div class="paginationcontainer">
         <div class="pagerWrap" aria-label="Pagination">
-            <button
-                class="pagerBtn"
-                :disabled="currentPage === 1"
-                @click="prevPage"
-                aria-label="Previous page"
-            >
+            <button class="pagerBtn" :disabled="currentPage === 1" @click="prevPage" aria-label="Previous page">
                 <span class="chev">‹</span>
                 <span class="txt">Prev</span>
             </button>
 
             <div class="pagerPills" role="navigation" aria-label="Page numbers">
-                <button
-                    v-for="p in totalPages"
-                    :key="p"
-                    class="pagePill"
-                    :class="{ active: p === currentPage }"
-                    @click="goToPage(p)"
-                    :aria-current="p === currentPage ? 'page' : undefined"
-                    :aria-label="`Go to page ${p}`"
-                >
+                <button v-for="p in totalPages" :key="p" class="pagePill" :class="{ active: p === currentPage }"
+                    @click="goToPage(p)" :aria-current="p === currentPage ? 'page' : undefined"
+                    :aria-label="`Go to page ${p}`">
                     {{ p }}
                 </button>
             </div>
 
-            <button
-                class="pagerBtn"
-                :disabled="currentPage === totalPages"
-                @click="nextPage"
-                aria-label="Next page"
-            >
+            <button class="pagerBtn" :disabled="currentPage === totalPages" @click="nextPage" aria-label="Next page">
                 <span class="txt">Next</span>
                 <span class="chev">›</span>
             </button>
@@ -673,12 +619,14 @@ watch(filteredMembers, async () => {
     margin: 0 4px;
     opacity: 0.85;
 }
+
 .flagWrap {
     display: inline-flex;
     align-items: center;
     gap: 4px;
     margin-right: 8px;
 }
+
 .flagIcon {
     width: 25px;
     height: 20px;
@@ -753,6 +701,7 @@ watch(filteredMembers, async () => {
     width: 30px;
     height: auto;
 }
+
 .filterBadge {
     font-size: 11px;
     padding: 6px 10px;
@@ -806,13 +755,11 @@ watch(filteredMembers, async () => {
     height: 1px;
     width: 100%;
     border-radius: 999px;
-    background: linear-gradient(
-        90deg,
-        rgba(46, 94, 255, 0) 0%,
-        rgba(46, 94, 255, 0.7) 35%,
-        rgba(46, 94, 255, 0.7) 65%,
-        rgba(46, 94, 255, 0) 100%
-    );
+    background: linear-gradient(90deg,
+            rgba(46, 94, 255, 0) 0%,
+            rgba(46, 94, 255, 0.7) 35%,
+            rgba(46, 94, 255, 0.7) 65%,
+            rgba(46, 94, 255, 0) 100%);
 }
 
 /* Checkbox group */
@@ -891,7 +838,7 @@ watch(filteredMembers, async () => {
 }
 
 /* checked state */
-.filterCheck input:checked + .checkFake {
+.filterCheck input:checked+.checkFake {
     background: linear-gradient(135deg, #1a57ff, #47b3ff);
     border-color: #ffffff;
     box-shadow:
@@ -900,7 +847,7 @@ watch(filteredMembers, async () => {
     transform: translateY(-1px);
 }
 
-.filterCheck input:checked + .checkFake .checkTick {
+.filterCheck input:checked+.checkFake .checkTick {
     opacity: 1;
     transform: scale(1);
     color: #ffffff;
@@ -965,12 +912,10 @@ watch(filteredMembers, async () => {
     border-radius: 999px;
 
     background: #00123d;
-    background: linear-gradient(
-        95deg,
-        rgba(0, 18, 61, 1) 0%,
-        rgba(0, 51, 171, 1) 35%,
-        rgba(6, 0, 120, 1) 100%
-    );
+    background: linear-gradient(95deg,
+            rgba(0, 18, 61, 1) 0%,
+            rgba(0, 51, 171, 1) 35%,
+            rgba(6, 0, 120, 1) 100%);
     border: 1px solid rgba(152, 189, 255, 0.8);
     box-shadow:
         0 8px 20px rgba(0, 0, 0, 0.45),
@@ -1076,7 +1021,7 @@ watch(filteredMembers, async () => {
 
 /* Responsive tweak */
 @media (max-width: 900px) {
-   .membercardcontainer {
+    .membercardcontainer {
         flex-direction: column;
         width: 95%;
     }

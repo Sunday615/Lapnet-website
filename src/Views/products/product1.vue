@@ -46,10 +46,7 @@ const memberLogos = [
     alt: "Client Z",
   },
   
-    {
-     src: "/logoallmember/circle_scale/Maruhan.png",
-    alt: "Client Y",
-  },
+
   {
    
      src: "/logoallmember/circle_scale/ICBC.png",
@@ -70,6 +67,10 @@ const memberLogos = [
   {
      src: "/logoallmember/circle_scale/ACLB.png",
     alt: "Client Z",
+  },
+      {
+     src: "/logoallmember/circle_scale/Maruhan.png",
+    alt: "Client Y",
   },
 
   {

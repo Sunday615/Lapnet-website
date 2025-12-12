@@ -27,9 +27,10 @@
             <div class="row1">
               <img src="/logoallmember/retangle_scale/BCEL.png" alt="BCEL" />
               <img src="/logoallmember/retangle_scale/APB.png" alt="APB" />
+                <img src="/logoallmember/retangle_scale/STB.jpg" alt="STB" />
               <img src="/logoallmember/retangle_scale/ACL.jpg" alt="ACL" />
               <img src="/logoallmember/retangle_scale/sacom.png" alt="Sacom" />
-              <img src="/logoallmember/retangle_scale/STB.jpg" alt="STB" />
+            
               <img src="/logoallmember/retangle_scale/MB.png" alt="MB" />
             </div>
           </div>

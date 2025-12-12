@@ -117,56 +117,56 @@ const goToBlogDetail = (id) => {
 
 const images = [
   {
-    id: 1,
-    src: "/blog/1.jpg",
+    id: 51,
+    src: "/blog/51/2.jpg",
     alt: "My photo 1",
-    title: "ພິທີລົງນາມເຊັນສັນຍາໂຄງການຊຳລະຂ້າມແດນລາວ-ຈີນ.",
-    date: "19 ທັນວາ 2024",
+    title: "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet) ເຂົ້າຮ່ວມງານສຳມະນາ ວ່າດ້ວຍການຊຳລະດ້ວຍລະບົບ QR Code ທີ່ ສສ. ຫວຽດນາມ.",
+    date: "04 ທັນວາ 2025",
     description: ""
   },
   {
-    id: 2,
-    src: "/blog/2/2.png",
+    id: 50,
+    src: "/blog/50/1.jpg",
     alt: "My photo 2",
     title:
-      "ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.",
-    date: "12 ສິງຫາ 2024",
+      "ເຖິງທະນາຄານຈະປິດ ກໍ່ໂອນເງິນຂ້າມທະນາຄານໄດ້ ພຽງແຕ່ມີ Application ຂອງທະນາຄານທີ່ເຂົ້າຮ່ວມເປັນສະມາຊິກ.",
+    date: "10 ພະຈິກ 2025",
     description: ""
   },
   {
-    id: 3,
-    src: "/blog/3/3.jpg",
+    id: 49,
+    src: "/blog/49/9.jpg",
     alt: "My photo 3",
     title:
-      "ແຈ້ງເຊີນປະມູນ ອຸປະກອນ HARDWARE ເພື່ອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNET.",
-    date: "15 ພຶດສະພາ 2024",
+      "ຄະນະສະພາບໍລິຫານຂອງ ບໍລິສັດ ຢູນຽນເພ ສປ.ຈີນ (UPI) ເຂົ້າພົບປະຢ້ຽມຢາມ ຄະນະບໍລິຫານຂອງບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet). ",
+    date: "06 ພະຈິກ 2025",
     description: ""
   },
   {
-    id: 4,
-    src: "/blog/4.png",
+    id: 48,
+    src: "/blog/48/8.jpg",
     alt: "My photo 4",
     title:
-      "ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ.",
-    date: "03 ເມສາ 2024",
+      "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet) ໄດ້ຈັດກອງປະຊຸມສະພາບໍລິຫານ ສະໄໝສາມັນ ປະຈຳໄຕມາດ III ຂອງປີ 2025.",
+    date: "03 ພະຈິກ 2025",
     description: ""
   },
   {
-    id: 5,
-    src: "/blog/5.jpg",
+    id: 47,
+    src: "/blog/47/1.jpg",
     alt: "My photo 5",
     title:
-      "ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ ແລະ ປະເທດໄທ.",
-    date: "14 ມີນາ 2024",
+      "ບໍລິສັດ ລາວເນເຊິນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet) ໄດ້ຈັດກອງປະຊຸມກະກຽມການເຊື່ອມຕໍ່ລະບົບການຊຳລະຍ່ອຍຂ້າມແດນ ລາວ-ຈີນ. ",
+    date: "16 ຕຸລາ 2025",
     description: ""
   },
   {
-    id: 6,
-    src: "/blog/6.jpg",
+    id: 46,
+    src: "/blog/46/1.jpg",
     alt: "My photo 6",
     title:
-      "ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ.",
-    date: "29 ກັນຍາ 2023",
+      "“ສະແກນຄິວອາດຽວ ຈ່າຍໄດ້ທຸກທະນາຄານ ດ້ວຍ LAO QR",
+    date: "08 ກັນຍາ 2025",
     description: ""
   }
 ];
@@ -302,13 +302,13 @@ const images = [
   transition:
     transform 0.9s ease-out,
     filter 0.6s ease-out;
-  filter: saturate(1.05) contrast(1.05) hue-rotate(-6deg);
+
 }
 
 /* hover: centered zoom + brighten */
 .card-inner:hover .card-image {
   transform: scale(1.12);
-  filter: saturate(1.3) contrast(1.2) hue-rotate(-10deg);
+ filter: saturate(1.05) contrast(1.05) hue-rotate(-6deg);
 }
 
 /* === INFO (bottom area) === */

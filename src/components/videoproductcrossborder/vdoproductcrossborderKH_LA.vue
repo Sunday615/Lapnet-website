@@ -29,13 +29,16 @@
               <img src="/logoallmember/retangle_scale/BCEL.png" alt="BCEL" />
               <img src="/logoallmember/retangle_scale/LDBnew.png" alt="LDB" />
               <img src="/logoallmember/retangle_scale/APB.png" alt="APB" />
-              <img src="/logoallmember/retangle_scale/jdbnew.png" alt="JDB" />
+            
               <img src="/logoallmember/retangle_scale/LVBnew.png" alt="LVB" />
+                <img src="/logoallmember/retangle_scale/jdbnew.png" alt="JDB" />
+                <img src="/logoallmember/retangle_scale/STB.jpg" alt="STB" />
+                <img src="/logoallmember/retangle_scale/BICnew.jpeg" alt="BIC" />
               <img src="/logoallmember/retangle_scale/IBbankk.JPG" alt="IB" />
               <img src="/logoallmember/retangle_scale/ACL.jpg" alt="ACL" />
-              <img src="/logoallmember/retangle_scale/BICnew.jpeg" alt="BIC" />
+            
               <img src="/logoallmember/retangle_scale/sacom.png" alt="Sacom" />
-              <img src="/logoallmember/retangle_scale/STB.jpg" alt="STB" />
+            
               <img src="/logoallmember/retangle_scale/Kbank.webp" alt="KBank" />
             </div>
           </div>

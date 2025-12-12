@@ -25,39 +25,32 @@
         </button>
 
         <div class="slider-window">
-  
-          <div
-            class="slider-track"
-            :style="{ transform: `translateX(-${currentPage * 100}%)` }"
-          >
+
+          <div class="slider-track" :style="{ transform: `translateX(-${currentPage * 100}%)` }">
             <!-- PAGE 1 -->
             <div class="slider-page">
               <div class="features">
                 <!-- BLOCK 1 : QR CODE BG -->
-                <div
-                  class="card feature-card feature-card--qr"
-                  @click="openOverlay('qrUsed')"
-                >
+                <div class="card feature-card feature-card--qr" @click="openOverlay('qrUsed')">
                   <h3>QR Code ທີ່ໃຊ້:</h3>
                   <p>
-                    ທ່ານສາມາດຊໍາລະໄດ້ໂດຍການສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ ຫຼື ສະແກນ QR ຂອງປະເທດຄູ່ຮ່ວມ ທີ່ຮ້ານຄ້າໃນຕ່າງປະເທດ.
+                    ທ່ານສາມາດຊໍາລະໄດ້ໂດຍການສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ ຫຼື ສະແກນ QR ຂອງປະເທດຄູ່ຮ່ວມ
+                    ທີ່ຮ້ານຄ້າໃນຕ່າງປະເທດ.
                   </p>
-                  <div class="feature-icon">
-                    <span>
-                      <img
-                        style="border-radius: 5px"
-                        src="/product/product6/qrcode.svg"
-                        alt=""
-                      />
-                    </span>
+                  <div class="flexicon">
+                    <div class="feature-icon" style="width: 190px; height: 66px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/qr.png"
+                          alt="" />
+                      </span>
+
+                    </div>
+
                   </div>
                 </div>
 
                 <!-- BLOCK 2 : FOREIGN CURRENCY BG -->
-                <div
-                  class="card feature-card feature-card--fx"
-                  @click="openOverlay('currency')"
-                >
+                <div class="card feature-card feature-card--fx" @click="openOverlay('currency')">
                   <h3>ສະກຸນເງິນ:</h3>
                   <p>
                     ນັກທ່ອງທ່ຽວຈະຖືກຫັກເງິນໃນບັນຊີຂອງປະເທດຕົນເອງ,
@@ -67,44 +60,25 @@
                   <div class="chip-row">
                     <div class="chip">
                       KHR
-                      <img
-                        src="https://flagcdn.com/kh.svg"
-                        style="width: 20px; margin-left: 3px"
-                        alt=""
-                      />
+                      <img src="https://flagcdn.com/kh.svg" style="width: 20px; margin-left: 3px" alt="" />
                     </div>
                     <div class="chip">
                       THB
-                      <img
-                        src="https://flagcdn.com/th.svg"
-                        style="width: 20px; margin-left: 3px"
-                        alt=""
-                      />
+                      <img src="https://flagcdn.com/th.svg" style="width: 20px; margin-left: 3px" alt="" />
                     </div>
                     <div class="chip">
                       VND
-                      <img
-                        src="https://flagcdn.com/vn.svg"
-                        style="width: 20px; margin-left: 3px"
-                        alt=""
-                      />
+                      <img src="https://flagcdn.com/vn.svg" style="width: 20px; margin-left: 3px" alt="" />
                     </div>
                     <div class="chip">
                       CNY
-                      <img
-                        src="https://flagcdn.com/cn.svg"
-                        style="width: 20px; margin-left: 3px"
-                        alt=""
-                      />
+                      <img src="https://flagcdn.com/cn.svg" style="width: 20px; margin-left: 3px" alt="" />
                     </div>
                   </div>
                 </div>
 
                 <!-- BLOCK 3 : EXCHANGE / ARROW BG -->
-                <div
-                  class="card feature-card feature-card--exchange"
-                  @click="openOverlay('exchange')"
-                >
+                <div class="card feature-card feature-card--exchange" @click="openOverlay('exchange')">
                   <h3>ອັດຕາແລກປ່ຽນ:</h3>
                   <p>
                     ແມ່ນອີງຕາມອັດຕາແລກປ່ຽນທີ່ຖືກກໍານົດໃນລະບົບໃນເວລາເຮັດທຸລະກໍາ.
@@ -122,90 +96,80 @@
             <!-- PAGE 2 -->
             <div class="slider-page">
               <div class="features">
-                <div
-                  class="card feature-card feature-card--qr"
-                  @click="openOverlay('khScanLaos')"
-                >
+                <div class="card feature-card feature-card--qr" @click="openOverlay('khScanLaos')">
                   <h3>ວິທີການຊຳລະ ກຳປູເຈຍ🇰🇭 ສະແກນ ລາວ🇱🇦</h3>
                   <p>
                     ນັກທ່ອງທ່ຽວກຳປູເຈຍໃຊ້ Bakong Mobile App ຫຼື ACLEDA Mobile App ສະແກນ LAO QR
                     ທີ່ຮ້ານຄ້າໃນລາວ.
                   </p>
-                  <div class="flexicon" >
+                  <div class="flexicon">
                     <div class="feature-icon" style="width: 100px; height: 100px">
                       <span>
-                        <img
-                          style="border-radius: 5px; width: 100%; height: 100% ;"
-                          src="/product/product6/khqrall.png"
-                          alt=""
-                        />
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/khqrall.png"
+                          alt="" />
                       </span>
-                   
+
                     </div>
-                   <span><i class="fa-solid fa-right-long" style="font-size: 2rem; margin-top:20px; margin-right:20px"></i></span>
-                    <div class="feature-icon"style="width: 100px; height: 100px">
+                    <span><i class="fa-solid fa-right-long"
+                        style="font-size: 2rem; margin-top:20px; margin-right:20px"></i></span>
+                    <div class="feature-icon" style="width: 100px; height: 100px">
                       <span>
-                        <img
-                       style="border-radius: 5px; width: 100%; height: 100% ;"
-                          src="/product/product6/Lqr.png"
-                          alt=""
-                        />
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                          alt="" />
                       </span>
                     </div>
                   </div>
                 </div>
 
-                <div
-                  class="card feature-card feature-card--fx"
-                  @click="openOverlay('laosScanKh')"
-                >
+                <div class="card feature-card feature-card--fx" @click="openOverlay('laosScanKh')">
                   <h3>ວິທີການຊຳລະ ລາວ🇱🇦 ສະແກນ ກຳປູເຈຍ🇰🇭</h3>
                   <p>
                     ນັກທ່ອງທ່ຽວລາວໃຊ້ Mobile Banking App ຂອງທະນາຄານລາວທີ່ເຂົ້າຮ່ວມ ສະແກນ QR ຂອງ
                     Bakong ຫຼື ACLEDA QR ຢູ່ກຳປູເຈຍ.
                   </p>
                   <div class="flexicon">
-                    <div class="feature-icon">
+                    <div class="feature-icon" style="width: 100px; height: 100px">
                       <span>
-                        <img
-                          style="border-radius: 5px; width: 75px; height: 75px"
-                             src="/Logomember/Bakong1.png"
-                          alt=""
-                        />
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                          alt="" />
                       </span>
+
                     </div>
-                    <div class="feature-icon">
+                    <span><i class="fa-solid fa-right-long"
+                        style="font-size: 2rem; margin-top:20px; margin-right:20px"></i></span>
+                    <div class="feature-icon" style="width: 100px; height: 100px">
                       <span>
-                        <img
-                          style="border-radius: 5px; width: 75px; height: 75px"
-                          src="/logoallmember/retangle_scale/aceledaqr.jpeg"
-                          alt=""
-                        />
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/khqrall.png"
+                          alt="" />
                       </span>
                     </div>
                   </div>
                 </div>
 
-                <div
-                  class="card feature-card feature-card--exchange"
-                  @click="openOverlay('thScanLaos')"
-                  
-                >
+                <div class="card feature-card feature-card--exchange" @click="openOverlay('thScanLaos')">
                   <h3>ວິທີການຊຳລະ ໄທ🇹🇭 ສະແກນ ລາວ🇱🇦</h3>
                   <p>
                     ນັກທ່ອງທ່ຽວໄທໃຊ້ Mobile Banking App ຂອງທະນາຄານໄທທີ່ເຂົ້າຮ່ວມ ສະແກນ LAO QR
                     ທີ່ຮ້ານຄ້າໃນລາວ.
                   </p>
-                  <div class="feature-icon">
-                    <span>
-                      <img
-                        style="border-radius: 5px; width: 75px"
-                        src="/logoallmember/retangle_scale/LAOQR.png"
-                        alt=""
-                      />
-                    </span>
+                  <div class="flexicon">
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/TH.png"
+                          alt="" />
+                      </span>
+
+                    </div>
+                    <span><i class="fa-solid fa-right-long"
+                        style="font-size: 2rem; margin-top:20px; margin-right:20px"></i></span>
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                          alt="" />
+                      </span>
+                    </div>
                   </div>
-                 
+
                 </div>
               </div>
             </div>
@@ -213,76 +177,76 @@
             <!-- PAGE 3 -->
             <div class="slider-page">
               <div class="features">
-                <div
-                  class="card feature-card feature-card--qr"
-                  @click="openOverlay('laosScanTh')"
-                >
+                <div class="card feature-card feature-card--qr" @click="openOverlay('laosScanTh')">
                   <h3>ວິທີການຊຳລະ ລາວ🇱🇦 ສະແກນ ໄທ🇹🇭</h3>
                   <p>
                     ນັກທ່ອງທ່ຽວລາວໃຊ້ Mobile Banking App ຂອງທະນາຄານລາວທີ່ເຂົ້າຮ່ວມ ສະແກນ Thai QR
                     ຢູ່ຮ້ານຄ້າໃນໄທ.
                   </p>
-                  <div class="feature-icon">
-                    <span>
-                      <img
-                        style="border-radius: 5px; width: 75px"
-                        src="/logoallmember/retangle_scale/Thaiqrnew.png"
-                        alt=""
-                      />
-                    </span>
+                  <div class="flexicon">
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                          alt="" />
+                      </span>
+
+                    </div>
+                    <span><i class="fa-solid fa-right-long"
+                        style="font-size: 2rem; margin-top:20px; margin-right:20px"></i></span>
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/TH.png"
+                          alt="" />
+                      </span>
+                    </div>
                   </div>
                 </div>
 
-                <div
-                  class="card feature-card feature-card--fx"
-                  @click="openOverlay('vnScanLaos')"
-                >
+                <div class="card feature-card feature-card--fx" @click="openOverlay('vnScanLaos')">
                   <h3>ວິທີການຊຳລະ ຫວຽດນາມ🇻🇳 ສະແກນ ລາວ🇱🇦</h3>
                   <p>
                     ນັກທ່ອງທ່ຽວຫວຽດນາມໃຊ້ Mobile Banking App ຂອງທະນາຄານຫວຽດນາມທີ່ເຂົ້າຮ່ວມ ສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ.
                   </p>
-                  <div class="feature-icon">
-                    <span>
-                      <img
-                        style="border-radius: 5px; width: 75px"
-                        src="/logoallmember/retangle_scale/LAOQR.png"
-                        alt=""
-                      />
-                    </span>
+                  <div class="flexicon">
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/napas.png"
+                          alt="" />
+                      </span>
+
+                    </div>
+                    <span><i class="fa-solid fa-right-long"
+                        style="font-size: 2rem; margin-top:20px; margin-right:20px"></i></span>
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                          alt="" />
+                      </span>
+                    </div>
                   </div>
                 </div>
 
-                <div
-                  class="card feature-card feature-card--exchange"
-                  @click="openOverlay('cnScanLaos')"
-                >
+                <div class="card feature-card feature-card--exchange" @click="openOverlay('cnScanLaos')">
                   <h3>ວິທີການຊຳລະ ຈີນ🇨🇳 ສະແກນ ລາວ🇱🇦</h3>
                   <p>
-                    ນັກທ່ອງທ່ຽວໃຊ້ Mobile App ຂອງເຄືອຂ່າຍທີ່ເຊື່ອມຕໍ່ກັບ UnionPay ຫຼື ຜູ້ໃຫ້ບໍລິການທີ່ກ່າວມາຂ້າງເທິງ ສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ.
+                    ນັກທ່ອງທ່ຽວໃຊ້ Mobile App ຂອງເຄືອຂ່າຍທີ່ເຊື່ອມຕໍ່ກັບ UnionPay ຫຼື ຜູ້ໃຫ້ບໍລິການທີ່ກ່າວມາຂ້າງເທິງ
+                    ສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ.
                   </p>
-                  <div class="upitolaoqr">
-                    <div class="logocontainer">
-                      <img
-                        style="
-                          width: 75px;
-                          height: 75px;
-                          box-shadow: 0 0 25px #3b82f6e6;
-                          border-radius: 5px;
-                        "
-                        src="/logoallmember/retangle_scale/UPIwithbg.png"
-                        alt=""
-                      />
-                      <i class="fa-solid fa-right-long"></i>
-                      <img
-                        style="
-                          width: 75px;
-                          height: 75px;
-                          box-shadow: 0 0 25px #3b82f6e6;
-                          border-radius: 5px;
-                        "
-                           src="/logoallmember/retangle_scale/LAOQR.png"
-                        alt=""
-                      />
+                  <div class="flexicon">
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/upi.png"
+                          alt="" />
+                      </span>
+
+                    </div>
+                    <span><i class="fa-solid fa-right-long"
+                        style="font-size: 2rem; margin-top:20px; margin-right:20px"></i></span>
+                    <div class="feature-icon" style="width: 100px; height: 100px">
+                      <span>
+                        <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                          alt="" />
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -311,11 +275,7 @@
             ສະແກນ QR ຂອງປະເທດຄູ່ຮ່ວມ ທີ່ຮ້ານຄ້າໃນຕ່າງປະເທດ.
           </p>
           <div class="overlay-icon-row">
-            <img
-              class="overlay-main-img"
-                  src="/product/product6/qrcode.svg"
-              alt=""
-            />
+            <img class="overlay-main-img" src="/product/product6/qr.png" alt="" />
           </div>
         </div>
 
@@ -329,35 +289,19 @@
           <div class="chip-row overlay-chip-row">
             <div class="chip">
               KHR
-              <img
-                src="https://flagcdn.com/kh.svg"
-                style="width: 22px; margin-left: 4px"
-                alt=""
-              />
+              <img src="https://flagcdn.com/kh.svg" style="width: 22px; margin-left: 4px" alt="" />
             </div>
             <div class="chip">
               THB
-              <img
-                src="https://flagcdn.com/th.svg"
-                style="width: 22px; margin-left: 4px"
-                alt=""
-              />
+              <img src="https://flagcdn.com/th.svg" style="width: 22px; margin-left: 4px" alt="" />
             </div>
             <div class="chip">
               VND
-              <img
-                src="https://flagcdn.com/vn.svg"
-                style="width: 22px; margin-left: 4px"
-                alt=""
-              />
+              <img src="https://flagcdn.com/vn.svg" style="width: 22px; margin-left: 4px" alt="" />
             </div>
             <div class="chip">
               CNY
-              <img
-                src="https://flagcdn.com/cn.svg"
-                style="width: 22px; margin-left: 4px"
-                alt=""
-              />
+              <img src="https://flagcdn.com/cn.svg" style="width: 22px; margin-left: 4px" alt="" />
             </div>
           </div>
         </div>
@@ -385,23 +329,21 @@
             ສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ.
           </p>
           <div class="overlay-flexicon">
-            <div class="feature-icon">
-              <span>
-                <img
-                  style="border-radius: 5px; width: 80px; height: 80px ; "
-                  src="/Logomember/Bakong1.png"
-                  alt=""
-                />
-              </span>
-            </div>
-            <div class="feature-icon">
-              <span>
-                <img
-                  style="border-radius: 5px; width: 80px; height: 80px"
-                       src="/logoallmember/retangle_scale/ACL.jpg"
-                  alt=""
-                />
-              </span>
+            <div class="flexicon">
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/khqrall.png"
+                    alt="" />
+                </span>
+
+              </div>
+              <span><i class="fa-solid fa-right-long"
+                  style="font-size: 3rem; margin-top:20px; margin-right:20px"></i></span>
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png" alt="" />
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -415,24 +357,23 @@
             ສະແກນ QR ຂອງ Bakong ຫຼື ACLEDA QR ຢູ່ກຳປູເຈຍ.
           </p>
           <div class="overlay-flexicon">
-            <div class="feature-icon">
-              <span>
-                <img
-                  style="border-radius: 5px; width: 80px; height: 80px"
-                  src="/Logomember/Bakong1.png"
-                  alt=""
-                />
-              </span>
+           <div class="flexicon">
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                    alt="" />
+                </span>
+
+              </div>
+              <span><i class="fa-solid fa-right-long"
+                  style="font-size: 3rem; margin-top:20px; margin-right:20px"></i></span>
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/khqrall.png" alt="" />
+                </span>
+              </div>
             </div>
-            <div class="feature-icon">
-              <span>
-                <img
-                  style="border-radius: 5px; width: 80px; height: 80px"
-                src="/logoallmember/retangle_scale/aceledaqr.jpeg"
-                  alt=""
-                />
-              </span>
-            </div>
+           
           </div>
         </div>
 
@@ -445,11 +386,22 @@
             ສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ.
           </p>
           <div class="overlay-icon-row">
-            <img
-              class="overlay-main-img"
-                        src="/logoallmember/retangle_scale/LAOQR.png"
-              alt=""
-            />
+            <div class="flexicon">
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/TH.png"
+                    alt="" />
+                </span>
+
+              </div>
+              <span><i class="fa-solid fa-right-long"
+                  style="font-size: 3rem; margin-top:20px; margin-right:20px"></i></span>
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png" alt="" />
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -463,11 +415,22 @@
             ສະແກນ Thai QR ຢູ່ຮ້ານຄ້າໃນໄທ.
           </p>
           <div class="overlay-icon-row">
-            <img
-              class="overlay-main-img"
-              src="/logoallmember/retangle_scale/Thaiqrnew.png"
-              alt=""
-            />
+            <div class="flexicon">
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png"
+                    alt="" />
+                </span>
+
+              </div>
+              <span><i class="fa-solid fa-right-long"
+                  style="font-size: 3rem; margin-top:20px; margin-right:20px"></i></span>
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/TH.png" alt="" />
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -480,11 +443,22 @@
             ສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ.
           </p>
           <div class="overlay-icon-row">
-            <img
-              class="overlay-main-img"
-                     src="/logoallmember/retangle_scale/LAOQR.png"
-              alt=""
-            />
+            <div class="flexicon">
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/napas.png"
+                    alt="" />
+                </span>
+
+              </div>
+              <span><i class="fa-solid fa-right-long"
+                  style="font-size: 3rem; margin-top:20px; margin-right:20px"></i></span>
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png" alt="" />
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -496,31 +470,22 @@
             ນັກທ່ອງທ່ຽວໃຊ້ Mobile App ຂອງເຄືອຂ່າຍທີ່ເຊື່ອມຕໍ່ກັບ UnionPay
             ຫຼື ຜູ້ໃຫ້ບໍລິການທີ່ກ່າວມາຂ້າງເທິງ ສະແກນ LAO QR ທີ່ຮ້ານຄ້າໃນລາວ.
           </p>
-          <div class="upitolaoqr overlay-upitolaoqr">
-            <div class="logocontainer">
-              <img
-                style="
-                  width: 80px;
-                  height: 80px;
-                  box-shadow: 0 0 25px #3b82f6e6;
-                  border-radius: 5px;
-                "
-                   src="/logoallmember/retangle_scale/UPIwithbg.png"
-                alt=""
-              />
-              <i class="fa-solid fa-right-long"></i>
-              <img
-                style="
-                  width: 80px;
-                  height: 80px;
-                  box-shadow: 0 0 25px #3b82f6e6;
-                  border-radius: 5px;
-                "
-                 src="/logoallmember/retangle_scale/LAOQR.png"
-                alt=""
-              />
+           <div class="flexicon">
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/upi.png"
+                    alt="" />
+                </span>
+
+              </div>
+              <span><i class="fa-solid fa-right-long"
+                  style="font-size: 3rem; margin-top:20px; margin-right:20px"></i></span>
+              <div class="feature-icon" style="width: 150px; height: 150px">
+                <span>
+                  <img style="border-radius: 5px; width: 100%; height: 100% ;" src="/product/product6/Lqr1.png" alt="" />
+                </span>
+              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -562,7 +527,7 @@ const startAuto = () => {
   stopAuto()
   autoTimer = setInterval(() => {
     nextPage()
-  }, 99999999)
+  }, 8000)
 }
 
 const handleNext = () => {
@@ -684,9 +649,11 @@ onBeforeUnmount(() => {
   width: 75px;
   height: 50px;
 }
+
 .logocontainer i {
   font-size: 23px;
 }
+
 .logocontainer {
   display: flex;
   align-items: center;
@@ -695,12 +662,14 @@ onBeforeUnmount(() => {
   margin: 0 auto;
   height: auto;
 }
+
 .upitolaoqr {
   width: 100%;
   display: flex;
   align-items: center;
   height: 150px;
 }
+
 .flexicon {
   width: 100%;
   height: 160px;
@@ -732,7 +701,7 @@ onBeforeUnmount(() => {
 
   width: 100%;
 
-  height: 960px; 
+  height: 960px;
 
   overflow: hidden;
   background: radial-gradient(circle at top, #1871ff 0, #001261 55%, #000 100%);
@@ -859,11 +828,9 @@ onBeforeUnmount(() => {
   height: 360px;
   border-radius: 20px;
   padding: 20px 20px 22px;
-  background: radial-gradient(
-    circle at top left,
-    rgba(59, 130, 246, 0.35),
-    rgba(15, 23, 42, 0.95)
-  );
+  background: radial-gradient(circle at top left,
+      rgba(59, 130, 246, 0.35),
+      rgba(15, 23, 42, 0.95));
   border: 1px solid rgba(148, 163, 184, 0.55);
   box-shadow: 0 20px 45px rgba(15, 23, 42, 0.9);
   backdrop-filter: blur(18px);
@@ -933,7 +900,7 @@ onBeforeUnmount(() => {
   position: relative;
   z-index: 1;
   border-radius: 14px;
-  
+
   background: rgba(15, 23, 42, 0.92);
 }
 
@@ -997,11 +964,9 @@ onBeforeUnmount(() => {
   overflow-y: auto;
   border-radius: 24px;
   padding: 28px 28px 32px;
-  background: radial-gradient(
-    circle at top left,
-    rgba(59, 130, 246, 0.55),
-    rgba(15, 23, 42, 0.98)
-  );
+  background: radial-gradient(circle at top left,
+      rgba(59, 130, 246, 0.55),
+      rgba(15, 23, 42, 0.98));
   border: 1px solid rgba(148, 163, 184, 0.7);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9);
   color: #e5edff;
@@ -1031,7 +996,7 @@ onBeforeUnmount(() => {
 }
 
 .overlay-title {
-  
+
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -1051,7 +1016,7 @@ onBeforeUnmount(() => {
 }
 
 .overlay-main-img {
-  width: 150px;
+  width: 250px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 25px #3b82f6e6;
