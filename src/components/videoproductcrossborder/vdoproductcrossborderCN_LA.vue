@@ -52,14 +52,12 @@
             <div class="unoinpaycontainer">
               <img
                 class="union-logo-main"
-                src="/Logomember/Unoin.png"
+                src="/logoallmember/retangle_scale/upi.png"
                 alt="UnionPay"
+
+                id="upiimage"
               />
-              <img
-                class="union-logo-sub"
-                src="/Logomember/UPI.webp"
-                alt="UnionPay International"
-              />
+          
             </div>
           </div>
         </div>
@@ -138,7 +136,12 @@ watch(selectedCountry, async () => {
 
 <style scoped>
 /* ===== Base layout ===== */
+#upiimage{
+  width: 100%;
+  height: 100%;
 
+  border-radius: 20px;
+}
 .video-background-container {
   position: relative;
   width: 100%;
@@ -317,7 +320,7 @@ watch(selectedCountry, async () => {
 
 .unoinpaycontainer {
   width: 100%;
-  max-width: 520px;
+  max-width: 390px;
   margin: 0 auto;
   display: flex;
   justify-content: center;

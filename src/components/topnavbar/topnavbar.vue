@@ -19,7 +19,7 @@
                     </div>
                     <div class="boxtopmenu register">
                      <a href="https://www.facebook.com/laonationalpaymentnetwork/" target="_blank">  <i class="fa-brands fa-facebook-f"></i></a>
-                      <a href="https://www.lapnet.com.la" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                      <a href="https://www.lapnet.com.la" target="_blank" style="margin-right:10px"><i class="fa-solid fa-globe"></i></a>
                       <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i> </a>
                         
                     </div>

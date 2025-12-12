@@ -112,10 +112,12 @@ watch(
       <product6swiper />
    </div>
    <div class="crossborderinfo">
+      <div class="boxmargin" style="width: 100%; height:15vh"></div>
       <div class="titlecrossborder">
          <h1 id="memberjoin">ທະນາຄານສະມາຊິກທີ່ເຂົ້າຮ່ວມ</h1>
          <crossborderbtn />
       </div>
+       <div class="boxmargin" style="width: 100%; height:10vh"></div>
       <div class="videocontainer">
          <div class="videocorssbordershow" ref="videoBox">
             <component :is="currentVideoComponent" :key="pair" />
@@ -135,11 +137,13 @@ watch(
 .descriptionforcustomer {
    width: 100%;
    height: auto;
+   
 }
 
 .videocontainer {
    width: 100%;
    height: auto;
+   
 }
 
 @media (max-width:518px) {
@@ -172,7 +176,7 @@ watch(
 
 .crossborderinfo {
    width: 100%;
-   height: 1330px;
+   height: auto;
 
 }
 
