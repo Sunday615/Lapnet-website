@@ -77,7 +77,7 @@ onMounted(() => {
 
   const timeline = gsap.timeline({
     defaults: {
-      duration: 0.8,
+      duration: 0.5,
       ease: 'power3.out',
     },
   })
@@ -151,7 +151,7 @@ onMounted(() => {
   if (heroImage.value) {
     gsap.to(heroImage.value, {
       y: 12,
-      duration: 3,
+      duration: 2,
       repeat: -1,
       yoyo: true,
       ease: 'sine.inOut',
